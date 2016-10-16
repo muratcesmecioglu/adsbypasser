@@ -1,3 +1,45 @@
+## 5.60.5
+
+* fixed
+    * coinlink.co
+
+## 5.60.4
+
+* fixed
+    * page nuking on Firefox
+
+## 5.60.3
+
+* fixed
+    * zytpirwai.net
+
+## 5.60.2
+
+* fixed
+    * log configuration
+    * bc.vc
+
+## 5.60.1
+
+* fixed
+    * remove redirection hack
+
+## 5.60.0
+
+* fixed
+    * image scaling problem
+    * coinlink.co
+    * designinghomey.com
+    * trying to fix some redirection problems
+* added
+    * hentai-baka.com
+    * safelinkreviewer.com
+    * cypt.ga
+    * imgfiles.org
+    * cocoleech.com
+    * imagerar.com
+    * imgdragon.com
+
 ## 5.59.0
 
 * fixed

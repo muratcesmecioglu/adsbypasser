@@ -1,12 +1,11 @@
 $.register({
   rule: {
-    host: /^coinlink\.co$/,
-    path: /^\/i\//,
+    host: /^cocoleech\.com$/,
   },
-  ready: function (m) {
+  ready: function () {
     'use strict';
 
-    var a = $('a#btn-main');
+    var a = $('#download');
     $.openLink(a.href);
   },
 });

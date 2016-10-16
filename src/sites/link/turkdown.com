@@ -1,13 +1,15 @@
 $.register({
   rule: {
-    host: /^coinlink\.co$/,
-    path: /^\/i\//,
+    host: /^dream\.turkdown\.com$/,
+    path: /^\/link/,
+    query: /^\?id=(.+)/,
   },
   ready: function (m) {
     'use strict';
-
-    var a = $('a#btn-main');
-    $.openLink(a.href);
+    $.get('?ajax='+m.query[1]).then(function (html) {
+      html = _.parseJSON(html);
+      $.openLink(html.url);
+    })
   },
 });
 

@@ -138,6 +138,24 @@
   });
 
   $.register({
+    rule: {
+      host: /^imgfiles\.org$/,
+      path: pathRule,
+    },
+    ready: function (m) {
+      var i = $.$('img.pic');
+      if (i) {
+        // second stage
+        $.openImage(i.src);
+        return;
+      }
+
+      var f = $('form');
+      f.submit();
+    },
+  });
+
+  $.register({
     rule: 'http://imgview.net/tpind.php',
     ready: function () {
       var i = $.$('img.pic');
@@ -151,6 +169,23 @@
         var d = $('div[id^="imageviewi"] input[type="submit"][style=""]');
         d = d.parentNode;
         d.submit();
+      });
+    },
+  });
+
+  $.register({
+    rule: /^http:\/\/imgdragon\.com\/(getfil\.php|dl)$/,
+    ready: function () {
+      var i = $.$('img.pic');
+      if (i) {
+        // second stage
+        $.openImage(i.src);
+        return;
+      }
+
+      _.wait(500).then(function () {
+        var f = $('#ContinueFRM');
+        f.submit();
       });
     },
   });

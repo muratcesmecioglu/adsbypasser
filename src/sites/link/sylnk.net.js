@@ -68,7 +68,7 @@ $.register({
   rule: [
     {
       host: [
-        /^(www\.)?(link\.)?safelink(converter2?|s?review)\.com$/,
+        /^(www\.)?(link\.)?safelink(converter2?|s?review(er?))\.com$/,
         /^susutin\.com$/,
         /^getcomics\.gq$/,
       ],
@@ -124,13 +124,18 @@ $.register({
       /^designinghomey\.com$/,
       /^motonews\.club$/,
     ],
-    query: /get=/,
+    query: /get=([^&]+)/,
   },
-  ready: function () {
+  ready: function (m) {
     'use strict';
 
     var s = $.searchScripts(/var a='([^']+)'/);
-    $.openLink(s[1]);
+    if (s) {
+      $.openLink(s[1]);
+      return;
+    }
+    s = atob(m.query[1]);
+    $.openLink(s);
   },
 });
 

@@ -38,6 +38,7 @@
     * youfap.me
     * yyv.co
     * zatnawqy.net
+    * zytpirwai.net
     * zff.co
 * Mihalism Multi Host
     * 244pix.com
@@ -92,6 +93,7 @@
     * goimge.com
     * golfpit.net
     * greasyimage.com
+    * hentai-baka.com
     * hentai-king.host
     * hentai-pop.com
     * hosturimage.com
@@ -107,6 +109,7 @@
     * imageon.org
     * imageontime.com
     * imagepicsa.com
+    * imagerar.com
     * imagesouls.net
     * imageteam.org
     * img-hentai.host
@@ -443,7 +446,9 @@
     * imgclick.net
     * imgdew.com
     * imgdiamond.com
+    * imgdragon.com
     * imgdrive.co
+    * imgfiles.org
     * imggold.org
     * imgmaid.net
     * imgmaze.com
@@ -520,6 +525,7 @@
     * rumahsimpel.com
     * safelinkconverter2.com
     * safelinkreview.com
+    * safelinkreviewer.com
     * safelinksreview.com
     * satuasia.com
     * sports14.pw
@@ -569,6 +575,9 @@
 * cuzle.com
     * cuzle.com
     * shorten.id
+* adlink.guru
+    * adlink.guru
+    * cypt.ga
 * else
     * 01.nl
     * 1be.biz
@@ -584,7 +593,6 @@
     * adfe.es
     * adfoc.us
     * adjet.biz
-    * adlink.guru
     * adlock.org
     * adlot.us
     * admy.link
@@ -613,6 +621,7 @@
     * cli.gs
     * clictune.com
     * clk.im
+    * cocoleech.com
     * coinlink.co
     * comicon.com.br
     * comyonet.com

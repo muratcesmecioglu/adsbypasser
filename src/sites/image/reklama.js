@@ -95,7 +95,7 @@
         host: [
           /^img(run|twyti)\.net$/,
           /^imgtwyti\.com$/,
-          /^hentai-pop\.com$/,
+          /^hentai-(pop|baka)\.com$/,
           /^(jav|img)-hentai\.host$/,
           /^hentai-king\.host$/,
           /^img-king\.xyz$/,
@@ -248,7 +248,10 @@
         path: /^\/img3-.*\.html/,
       },
       {
-        host: /^imgkings\.com$/,
+        host: [
+          /^imgkings\.com$/,
+          /^imagerar\.com$/,
+        ],
         path: /^\/img-.*\.html/,
       },
     ],
@@ -270,6 +273,17 @@
       },
     ],
     ready: defaultAction,
+  });
+
+  $.register({
+    rule: {
+      host: /^imagerar\.com$/,
+      path: /^\/img2-/
+    },
+    ready: function () {
+      var i = $('img[alt]');
+      $.openImage(i.src);
+    },
   });
 
 })();

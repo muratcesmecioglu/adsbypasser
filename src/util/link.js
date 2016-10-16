@@ -28,10 +28,19 @@
     // Create a link on the page
     var a = document.createElement('a');
     a.href = url;
+    // Prevent event interfering
+    a.addEventListener('click', function (event) {
+      event.stopPropagation();
+    });
 
     // Simulate a click on this link (so that the referer is sent)
     prepare(a);
     a.click();
+
+    // Warning if the page still not redirecting
+    _.wait(10 * 1000).then(function () {
+      _.warn('previous click does not work');
+    });
   }
 
 
