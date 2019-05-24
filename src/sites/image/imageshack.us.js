@@ -1,31 +1,26 @@
 (function () {
-  'use strict';
 
-  var host = /^imageshack\.us$/;
+  const host = /^imageshack\.us$/;
 
-  $.register({
+  _.register({
     rule: {
       host: host,
-      path: /^\/photo\/.+\/(.+)\/([^\/]+)/,
+      path: /^\/photo\/.+\/(.+)\/([^/]+)/,
     },
-    start: function (m) {
-      $.openImage(_.T('/f/{0}/{1}/')(m.path[1], m.path[2]));
+    async start (m) {
+      await $.openImage(`/f/${m.path[1]}/${m.path[2]}/`);
     },
   });
 
-  $.register({
+  _.register({
     rule: {
       host: host,
-      path: /^\/f\/.+\/[^\/]+/,
+      path: /^\/f\/.+\/[^/]+/,
     },
-    ready: function () {
-      var i = $('#fullimg');
-      $.openImage(i.src);
+    async ready () {
+      const i = $('#fullimg');
+      await $.openImage(i.src);
     },
   });
 
 })();
-
-// ex: ts=2 sts=2 sw=2 et
-// sublime: tab_size 2; translate_tabs_to_spaces true; detect_indentation false; use_tab_stops true;
-// kate: space-indent on; indent-width 2;

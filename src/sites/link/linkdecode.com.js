@@ -1,36 +1,31 @@
-$.register({
+_.register({
   rule: {
-    host: [
-      /^www\.linkdecode\.com$/,
-      /^www\.fastdecode\.com$/,
-    ],
+    host: /^www\.linkdecode\.com$/,
     path: /^\/$/,
     query: /^\?(.+)$/,
   },
-  ready: function (m) {
-    'use strict';
-
-    $.removeNodes('iframe');
+  async ready (m) {
+    $.remove('iframe');
 
     // Either base64 + salt, or a plain URL
-    var lnk = m.query[1];
+    let lnk = m.query[1];
 
     // If plain URL
     if (m.query[1].match(/^https?:\/\//)) {
-    	$.openLink(lnk);
-    	return;
+      await $.openLink(lnk);
+      return;
     }
 
     // Interstitial
-    var b = $.$('#popup');
+    let b = $.$('#popup');
     if (b && b.href) {
-      $.openLink(b.href);
+      await $.openLink(b.href);
       return;
     }
 
     // Else if base64 + salt, we get the decrypted URL from the website
     b = $('#m > .Visit_Link');
-    b = b.onclick.toString().match(/window\.open\(\'([^']+)\'/);
+    b = b.onclick.toString().match(/window\.open\('([^']+)'/);
     if (!b) {
       throw new _.AdsBypasser('pattern changed');
     }
@@ -38,15 +33,11 @@ $.register({
     // Plain link
     lnk = b[1].match(/\?(https?:\/\/.*)$/);
     if (lnk) {
-        $.openLink(lnk[1]);
-        return;
+      await $.openLink(lnk[1]);
+      return;
     }
 
     // Continue the decryption
-    $.openLink(b[1]);
+    await $.openLink(b[1]);
   },
 });
-
-// ex: ts=2 sts=2 sw=2 et
-// sublime: tab_size 2; translate_tabs_to_spaces true; detect_indentation false; use_tab_stops true;
-// kate: space-indent on; indent-width 2;

@@ -1,26 +1,40 @@
-$.register({
+_.register({
   rule: {
-    host: /^(www\.)?mirrorcreator\.com$/,
-    path: /^\/showlink\.php$/,
+    host: [
+      /^(www\.)?mirrorcreator\.com$/,
+      /^(www\.)?mirrored\.to$/,
+    ],
+    path: /^\/downlink\//,
   },
-  ready: function () {
-    'use strict';
-
-    var a = $.$('#redirectlink a');
-    if (a) {
-      $.openLink(a.href);
-      return;
-    }
-
-    a = $('#redirectlink > div.redirecturl');
-    a = a.innerHTML;
-    if (!a.match(/^http/)) {
-      throw new _.AdsBypasserError('not a valid URL');
-    }
-    $.openLink(a);
+  async ready () {
+    const a = $('.col-sm.centered.highlight a');
+    await $.openLink(a.href);
   },
 });
 
-// ex: ts=2 sts=2 sw=2 et
-// sublime: tab_size 2; translate_tabs_to_spaces true; detect_indentation false; use_tab_stops true;
-// kate: space-indent on; indent-width 2;
+
+_.register({
+  rule: {
+    host: [
+      /^(www\.)?mirrorcreator\.com$/,
+      /^(www\.)?mirrored\.to$/,
+    ],
+    path: /^\/files\//,
+  },
+  async ready () {
+    $('#dl_form').style.display = 'none';
+
+    const res = $('#result');
+    res.style.display = 'block';
+
+    const o = new MutationObserver(() => {
+      res.style.display = 'block'; //never hide me again
+    });
+    o.observe(res, {
+      attributes: true,
+    });
+
+    await _.wait(1000);
+    $.window.start();
+  },
+});

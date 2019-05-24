@@ -1,15 +1,22 @@
-$.register({
+_.register({
   rule: {
-    host: /^prntscr\.com$/
-  },
-  ready: function () {
-    'use strict';
-
-    var i = $('#screenshot-image');
-    $.openImage(i.src);
+    host: [
+      /^prntscr\.com$/,
+      /^prnt\.sc$/,
+    ],
+    path: /\.html$/,
   },
 });
 
-// ex: ts=2 sts=2 sw=2 et
-// sublime: tab_size 2; translate_tabs_to_spaces true; detect_indentation false; use_tab_stops true;
-// kate: space-indent on; indent-width 2;
+_.register({
+  rule: {
+    host: [
+      /^prntscr\.com$/,
+      /^prnt\.sc$/,
+    ],
+  },
+  async ready () {
+    const i = $('#screenshot-image');
+    await $.openImage(i.src);
+  },
+});

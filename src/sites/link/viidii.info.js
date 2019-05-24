@@ -1,15 +1,21 @@
-$.register({
+_.register({
   rule: {
     host: /^www\.viidii\.info$/,
+    query: /url=([^&]+)/,
   },
-  ready: function () {
-    'use strict';
-
-    var o = $('#directlink');
-    $.openLink(o.href);
+  async start (m) {
+    const url = decodeURIComponent(m.query[1]);
+    await $.openLink(url);
   },
 });
 
-// ex: ts=2 sts=2 sw=2 et
-// sublime: tab_size 2; translate_tabs_to_spaces true; detect_indentation false; use_tab_stops true;
-// kate: space-indent on; indent-width 2;
+
+_.register({
+  rule: {
+    host: /^www\.viidii\.info$/,
+  },
+  async ready () {
+    const o = $('.bglink');
+    await $.openLink(o.href);
+  },
+});

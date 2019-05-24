@@ -1,3 +1,1769 @@
+## TBA
+
+* fixed
+    * cpmlink.net
+    * daunshorte.teknologilink.com
+    * imagebam.com
+    * teknosafe.teknologilink.com
+    
+## v7.1.0
+
+* fixed
+    * tout-debrid.net
+* added
+    * 6aba2day.com
+    * a-egy.com
+    * akla4.com
+    * al3amall.com
+    * bloggerworld.online
+    * cpm4all.ga
+    * fc.lc
+    * kutpay.com
+    * nikkarr.com
+    * oload.life
+    * shrt8.com
+    * veblink.com
+
+## v7.0.0
+
+* fixed
+    * adf.ly
+    * mirrored.to
+    * naturalhealthy.xyz
+    * pimpandhost.com
+* added
+    * 123short.biz
+    * advancedautorepairtips.me
+    * allreports.site
+    * beast-birds.com
+    * boardgift.com
+    * ckk.ai
+    * clixg.com
+    * cutls.co
+    * dislooks.com
+    * drivehub.link
+    * elkhbrel7sry.com
+    * entretendonaweb.ga
+    * ez4link.org
+    * gamesindians.com
+    * infotrendy.me
+    * jelajahinternet.me
+    * kurosafety.menantisenja.com
+    * mawdok.com
+    * newsinjules.com
+    * oload.network
+    * ommantrameditation.com
+    * onaah.com
+    * pafpaf.info
+    * razerflixs.com
+    * takeitfor.me
+    * talkittechy.com
+    * techfinda.com
+    * techmen-world.com
+    * templink.org
+    * tomient.com
+    * wrap-w0rld.com
+    * yasinews.xyz
+
+## v6.36.0
+
+* fixed
+    * cutwin.com
+    * icutlink.com
+    * slink.bid
+    * kakkoiisafe.us
+    * mylink.zone
+* added
+    * 5brgedid.com
+    * adpaytm.com
+    * advance-wishingjs.com
+    * agradarpan.com
+    * android-1.com
+    * autocarsmagz.xyz
+    * bestscholaeshipdegree.date
+    * bloggingraja.com
+    * cu3.io
+    * daily-sale.in
+    * dailyimages.xyz
+    * directedlink.net
+    * downloaddoom.com
+    * earnwithshortlink.com
+    * efshort.com
+    * el3id.site
+    * enrt.eu
+    * gamemod.pro
+    * getpocket.xyz
+    * govtsmartjob.com
+    * healthykk.com
+    * hello.tribuntekno.com
+    * ilinkshortx.com
+    * layarkaca21.vip
+    * linkfay.com
+    * linksupto.com
+    * merdekaid.online
+    * mirrorace.com
+    * mooddisorder.co
+    * multifilemirror.com
+    * mutharammss.xyz
+    * namiyt.com
+    * nooyul.co
+    * oko.sh
+    * oload.services
+    * onle.co
+    * openloed.co
+    * ourtechnoew.xyz
+    * profitstudy.xyz
+    * pucuk.xyz
+    * realsht.mobi
+    * royalown.review
+    * shortye.net
+    * shtme.co
+    * starvate.in
+    * starzone.cc
+    * sxtsquad.com
+    * techkti.com
+    * technodia.xyz
+    * thanda.xyz
+    * thegyaanipoint.com
+    * thinana.xyz
+    * trackywe.in
+    * travelwithtricks.me
+    * uii.io
+    * uplinkto.me
+    * viralcollect.info
+
+## v6.35.0
+
+* fixed
+    * cutwin.us
+    * openload.co
+    * sweetlantern.com
+    * vivads.net
+    * za.gl
+* added
+    * abouttech.space
+    * adlpu.com
+    * amenitiees.com
+    * arba7co.com
+    * 123link.carpartsviet97.site
+    * click2url.online
+    * coolmitten.com
+    * cooltxtgen.com
+    * cosmicmony.com
+    * dausel.co
+    * funnyquiz.blog
+    * getfreshcloud.xyz
+    * jejaklagu.com
+    * khraba.com
+    * kpscthulasilogin.info
+    * ln435.online
+    * lnkjob.com
+    * lnks4all.com
+    * miniurl.pw
+    * oladblock.me
+    * oladblock.xyz
+    * partqb2i.com
+    * pebisnis-muda.com
+    * pingit.im
+    * sciencelife.ga
+    * shophipro.xyz
+    * shortlinko.com
+    * sk-ip.ru
+    * slink.bid
+    * suarankri.me
+    * tabakhelo.com
+    * techinhub.xyz
+    * technocanvas.xyz
+    * thin.at
+    * utimetableresult.in
+    * viralnow.xyz
+    * xpickle.club
+
+## v6.34.0
+
+* fixed
+    * adf.ly (maranhesduve.club, uclaut.net)
+    * imgbaron.com
+    * mirrored.to
+    * shortly.xyz
+    * sweetlantern.com
+    * tmearn
+* added
+    * ad4msan.ml
+    * ad4msan.win
+    * blog.langw.web.id
+    * click2-url.com
+    * cuti.in
+    * elsfile.org
+    * filemedia.net
+    * haxrs.com
+    * k2nblog.com
+    * kidsors.xyz
+    * leechpremium.link
+    * linksht.com
+    * makeurl.co
+    * newskart.xyz
+    * oladblock.services
+    * short2win.me
+    * tout-debrid.net
+    * turkdown.com
+    * updatetribun.org
+    * ux9.de
+    * wikiall.org
+    * zi.ht
+
+## v6.33.0
+
+* fixed
+    * oload.space
+    * shrt10.com
+* changed
+    * path rule in reklama.js
+    * path rule in openload.co.js
+    * added new overlay remover in linkdrop.js
+    * added two new handlers in linkdrop.js
+* added
+    * bakilink.com
+    * blameless.work
+    * cl250.club
+    * click2see.desi
+    * clkpay.com
+    * clkpays.com
+    * cu2.io
+    * elil.cc
+    * ely-om7.com
+    * empearn.com
+    * empireshort.com
+    * enewstalk.com
+    * factural.com
+    * gossipcorners.com
+    * healthhindigyan.in
+    * imageoptimizer.us
+    * imageshtorm.com
+    * imgazure.com
+    * imguur.pictures
+    * jainjinvani.com
+    * ln11.xyz
+    * newupdatesonline.com
+    * reb7konline.com
+    * sh11.xyz
+    * shaggyimg.pro
+    * shorted.id
+    * shrinkbuck.com
+    * tabeikh.com
+    * tarnwh2i.com
+    * tradeguru.xyz
+    * uptoos.com
+    * url.hulblog.com
+    * wishes2.com
+    * xaoutchouc.live
+    * yesmoviesapp.info
+    * yourw-ay.com
+
+## v6.32.0
+
+* fixed
+    * hexafile.net
+* added
+    * ecoimages.xyz
+    * hikarinoakariost.info
+    * imagespublic.tk
+    * imgsee.net
+    * oload.space
+
+## v6.31.0
+
+* fixed
+    * idsly.bid
+    * idsly.net
+    * imgfile.net
+    * wicr.me
+* added
+    * 4short.tk
+    * akanosora.com
+    * ally.shortens.co
+    * arba7kpro.com
+    * crabcut.net
+    * cutadlink.net
+    * cuto.io
+    * cutwin.us
+    * download-mirror.ga
+    * dukun-cit.com
+    * dutchycorp.space
+    * earn.theplusit.ro
+    * earnmoneytalk.com
+    * fabsdeals.com
+    * flaz.link
+    * geki.tech
+    * goou.in
+    * icutlink.com
+    * lapak.link
+    * mrfourtech.com
+    * oload.live
+    * sardeath.com
+    * skip.az
+    * tech4utoday.com
+    * techandreview.info
+    * uiz.io
+    * urlsamo.com
+    * yametesenpai.xyz
+
+## v6.30.0
+
+* fixed
+    * imgfile.net
+* added
+    * 123link.vip
+    * 1921681254.tech
+    * 1idsly.com
+    * 2fly.me
+    * bloggingdekh.xyz
+    * btc.ms
+    * chrt.pw
+    * counsellingresult2016.in
+    * curs.co
+    * cuus.io
+    * drakorsafe.tech
+    * fopkodiak.site
+    * gsmzone.site
+    * iitjeemainguide.in
+    * imgbaron.com
+    * khabratk.com
+    * lewat.in
+    * lewat.wibuindo.com
+    * lin65.me
+    * lindung.me
+    * linkorlink.com
+    * lotechnocan.org
+    * omglyrics.com
+    * omgmusik.com
+    * programsfre.com
+    * safelinkblogger.com
+    * shortearn.eu
+    * shortid.co
+    * shrink.vip
+    * skinnycat.org
+    * sub2unlock.com
+    * szs.pw
+    * technlab.com
+    * tinylink.run
+    * unduh.in
+    * wibuindo.xyz
+    * xxx.fopkodiak.site
+
+## v6.29.0
+
+* fixed
+    * 22pixx.xyz
+    * mykinggo.com
+    * win4cut.com
+* added
+    * 3rab-cash.com
+    * blogginggyanbox.com
+    * buyitonline.store
+    * cuee.io
+    * cuturl.in
+    * gifsis.com
+    * giga74.com
+    * idsly.net
+    * imagescanner.cc
+    * imgcloud.pw
+    * li-nkz.com
+    * lpe.pw
+    * marivelkece.xyz
+    * multiimg.com
+    * nekopoi.ga
+    * oload.club
+    * openload.pw
+    * payskip.org
+    * picstate.com
+    * pinkhindi.com
+    * postimg.cc
+    * shln.pw
+    * srtfly.com
+    * yourtechguider.com
+
+## v6.28.0
+
+* fixed
+    * greget.space
+* added
+    * 8o.ee
+    * buy-in-599rs.win
+    * cyahealth.com
+    * eatings.stream
+    * ershadat.com
+    * idsly.org
+    * link5s.co
+    * linku.us
+    * safelinkreviewx.com
+    * xemlink.net
+    * z2i.com
+* removed
+    * pixsense.net
+    * safelinkconverter2.com
+    * safelinkreviewer.com
+    * safelinksreview.com
+
+## v6.27.0
+
+* fixed
+    * linkdrop.net
+    * 1be.biz
+* added
+    * businessiss2.info
+    * link2link.cf
+    * lonelymoon.net
+    * megaurl.link
+    * skipurls.com
+    * smarteasystudy.com
+    * stt.awsubs.co
+
+## v6.26.0
+
+* fixed
+    * imgfile.net
+    * xxxwebdlxxx.org
+* added
+    * awsubsco.ml
+    * clk.ink
+    * cuio.io
+    * irisvera.com
+    * oload.fun
+    * plantaheim.com
+    * probusinesshub.com
+    * pss.pw
+
+## v6.25.0
+
+* fixed
+    * 22pixx.xyz
+    * spacetica.com
+* added
+    * adsrt.me
+    * e2s.cc
+    * glory-link.com
+    * idnation.net
+    * lwt.pw
+    * picbaron.com
+    * stfly.press
+    * teknologilink.com
+    * zutrox.link
+
+## v6.24.0
+
+* added
+    * 1ink.info
+    * clk.icu
+    * healthtod.com
+    * shortly.xyz
+
+## v6.23.0
+
+* fixed
+    * fastpic.ru
+    * oturl.com
+* added
+    * shtlink.co
+    * won.pe
+
+## v6.22.0
+
+* fixed
+    * imgoutlet.pw
+* added
+    * 22pixx.xyz
+    * adzurl.cf
+    * cutpaid.com
+    * naturalhealthy.xyz
+    * oload.cc
+    * shortglobal.com
+    * tpx.me
+    * vnurl.xyz
+    * xxx.sexex.xyz
+
+## v6.21.0
+
+* fixed
+    * beeimg.com
+    * imagetwist.com
+    * imgoutlet.pw
+    * imgprime.com
+    * picmoza.com
+* added
+    * autoride.pw
+    * javtor.com
+    * oload.cloud
+    * topurl.net
+
+## v6.20.0
+
+* fixed
+    * adsrt.com
+    * bolaoke.club
+    * sehatsegar.net
+    * imagetwist.com
+* added
+    * akoam.net
+    * drivefiles.bid
+    * drive.jepitkertas.com
+    * link4win.net
+    * linksad.net
+    * swzz.xyz
+* removed
+    * akoam.com
+
+## v6.19.0
+
+* fixed
+    * autolinkach.com
+    * bolaoke.club
+    * davinsurance.com
+    * psl.pw
+* added
+    * adskipme.com
+    * cll.press
+    * fmlawkers.club
+    * hexafile.net
+    * indexmovie.club
+    * insurance-waifu.cf
+    * javlibrary.com
+    * link4win.com
+    * picclock.ru
+    * picmoza.com
+    * shrtfly.net
+    * skyinsurance.ml
+    * spacetica.com
+    * speedcar.club
+    * telolet.in
+* removed
+    * susutinv2.com
+
+## v6.18.0
+
+* fixed
+    * itiad.com
+    * mirrored.to
+* added
+    * 123link.pro
+    * cashat.net
+    * cutsouf.com
+    * dawnstation.com
+    * flylink.io
+    * imgant.com
+    * link.tl
+    * linkvip.tk
+    * lnkshrnk.net
+    * niagoshort.com
+    * picpic.online
+    * rhvgmritmziwcm.net
+    * short2win.net
+    * ujv.al
+    * ujv.me
+    * win4cut.com
+
+## v6.17.0
+
+* fixed
+    * linkdrop.net
+* added
+    * awcar.icu
+    * converthinks.xyz
+    * davinsurance.com
+    * fiuxy.bz
+    * getinfos.net
+    * getlink.pw
+    * imageblinks.com
+    * imgdew.pw
+    * imgmaze.pw
+    * imgtown.pw
+    * imgview.pw
+    * onepiece-ex.com.br
+    * s.yukisubs.com
+* removed
+    * imgdew.com
+    * imgmaze.com
+    * imgtown.net
+    * imgview.net
+
+## v6.16.0
+
+* fixed
+    * coshink.co
+    * mirrored.to
+* added
+    * adcoin.me
+    * clk.sh
+    * hdmoza.com
+    * imgjazz.com
+    * linkach.com
+    * linktor.io
+    * lyon.kim
+    * skips.link
+    * za.gl
+
+## v6.15.0
+
+* fixed
+    * cut-earn.com
+    * cutearn.ca
+    * link-zero.com
+    * payskip.me
+    * plantaheim.web.id
+* added
+    * 22pixx.xyz
+    * autech.xyz
+    * cut-win.com
+    * gocitlink.com
+    * idsly.bid
+    * licklink.net
+    * mirrored.to
+    * mykinggo.com
+    * sweetlantern.com
+    * tinylinks.net
+    * vivads.net
+    * wicr.me
+
+## v6.14.0
+
+* fixed
+    * anjay.info
+    * bit-url.com
+    * catcut.net
+    * coinlink.co
+    * imagetwist.com
+    * mirrorcreator.com
+    * moesubs.com
+* added
+    * by6dk.com
+    * dwindly.io
+    * foxurl.net
+    * glinks.me
+    * imageko.com
+    * intercelestial.com
+    * itiurl.co
+    * kurosafe.menantisenja.com
+    * kurosafe.online
+    * kurosafe.website
+    * kuylink.com
+    * losstor.com
+    * met.bz
+    * payskip.me
+    * sehatsegar.net
+    * tetew.info
+    * tokenfly.pw
+* removed
+    * lix.in
+    * zintata.com
+
+## v6.13.0
+
+* fixed
+    * earnbig.ca
+    * gg-l.xyz
+    * imagebam.com
+    * lifesurance.info
+    * ourl.io
+    * petty.link
+    * pnd.tl
+    * shrinkearn.com
+    * spaste.com
+    * tl.tc
+    * wi.cr
+* added
+    * admew.com
+    * anjay.info
+    * bolaoke.club
+    * businessforyouand.me
+    * designmyhomee.com
+    * earn-url.com
+    * eklink.net
+    * id-securelink.xyz
+    * kakkoiisafe.us
+    * likn.xyz
+    * linkexa.com
+    * link-zero.com
+    * novaenreta.space
+    * shon.xyz
+    * shrtfly.com
+    * simaholina.xyz
+    * skinnycat.net
+    * sloomp.space
+    * tiny.ec
+    * tny.ec
+    * tojros.tk
+    * turkdown.com
+* removed
+    * 244pix.com
+    * adlock.org
+    * b4he.com
+    * bilder-space.de
+    * buzurl.com
+    * cash4files.com
+    * cf2.me
+    * cf3.me
+    * cf5.me
+    * cf6.co
+    * cf7.co
+    * dd.ma
+    * dh10thbvu.com
+    * dwimg.com
+    * ex9.co
+    * fapoff.com
+    * galleries.bz
+    * goneviral.com
+    * gxp.so
+    * hashe.in
+    * hit.us
+    * hornywood.tv
+    * ilovebanten.com
+    * imagescream.com
+    * imgchili.com
+    * imgchili.net
+    * imgdiamond.com
+    * imghere.net
+    * imgsmile.com
+    * ironimg.net
+    * kokemoon.com
+    * link-earn.com
+    * link2you.ru
+    * linkhits.us
+    * lovechix.com
+    * megaline.co
+    * miniurl.tk
+    * picbucks.com
+    * picturescream.asia
+    * picturescream.com
+    * postscreens.info
+    * shark.vn
+    * theseforums.com
+    * tnabucks.com
+    * topload.pro
+    * tubeviral.com
+    * u2ks.com
+    * ultrafiles.net
+    * urlst.me
+    * x45x.info
+    * xip.ir
+    * xiw34.com
+    * xt3.me
+    * zbqhfbetlmni.net
+    * zff.co
+
+## v6.12.0
+
+* fixed
+    * videogamesblogger.com
+    * viidii.info
+    * gameinfo.pw
+    * megaurl.in
+    * cuon.io
+    * gsurl.me
+    * sehatlega.com
+    * apasih.pw
+    * icutit.ca
+    * adpop.me
+* added
+    * itiad.com
+    * prnt.sc
+    * imgmass.com
+    * shrten.xyz
+    * crus.io
+    * 4cut.io
+    * imageshimage.com
+    * imgrock.pw
+    * koylinks.win
+    * tr.link
+    * oload.download
+    * taive.in
+    * payshorturl.com
+    * oturl.com
+    * loadurl.com
+    * vinaurl.net
+    * lopte.pro
+    * man2pro.com
+    * urltips.com
+    * raolink.com
+    * imgbalana.com
+* removed
+    * x.pixfarm.net
+    * vvcap.net
+    * imageontime.com
+    * imagepicsa.com
+    * imagehorse.com
+    * zonezeedimage.com
+    * zeljeimage.com
+    * croftimage.com
+    * myhotimage.com
+    * bokimage.com
+    * imgnext.com
+    * img.spicyzilla.com
+    * imgtwyti.com
+    * imgxyz.com
+    * imgdevil.com
+    * imgban.com
+    * imgpu.com
+    * imgbeer.com
+    * imgwet.com
+    * imgnimz.com
+    * imgbinbou.com
+    * img22.com
+    * imgcover.com
+    * imgblank.com
+    * imgreality.com
+    * img-zone.com
+    * img-uploads.com
+    * imgblow.com
+    * img4sharing.com
+    * imagefolks.com
+    * freephotohostin.com
+    * imgult.com
+    * xxximagenow.com
+    * xxxsparrow.com
+    * playimg.com
+    * picstwist.com
+    * ericsony.com
+    * uplimg.com
+    * lexiit.com
+    * thumbnailus.com
+    * newimagepost.com
+    * fapingpics.com
+    * i.imgslip.com
+    * hentai.imgslip.com
+    * goimge.com
+    * nimplus.com
+    * nudeximg.com
+    * imgcoin.net
+    * imgfap.net
+    * imgcandy.net
+    * imgmaster.net
+    * imgrun.net
+    * imgboom.net
+    * imgpics.net
+    * imagesouls.net
+    * imagelaser.net
+    * picture-bang.net
+    * project-photo.net
+    * pix-link.net
+    * golfpit.net
+    * shotimg.org
+    * adultimg.org
+    * dragimage.org
+    * imgmag.co
+    * bulkimg.info
+    * photo-up.info
+    * myimg.info
+    * img-pop.info
+    * vava.in
+    * pixxx.me
+    * picspornfree.me
+    * imgload.me
+    * fapat.me
+    * pic2pic.ru
+    * 24avarii.ru
+    * loftlm.ru
+    * 18pron.ru
+    * imgplus.ru
+    * imgease.re
+    * goimg.xyz
+    * pic2pic.site
+    * sxpics.nl
+    * darpix.desi
+    * pic4you.top
+    * imgsen.se
+    * imgtwyti.net
+    * imgtwyti.com
+    * hentai-baka.com
+    * jav-hentai.host
+    * img-hentai.host
+    * hentai-king.host
+    * img-king.xyz
+    * imgbb.net
+    * imgtor.pw
+    * imageporn.eu
+    * imgzizi.xyz
+    * 08lkk.com
+    * greenpiccs.com
+    * pornimagex.com
+    * pixhub.eu
+    * picmoe.net
+    * pic2profit.com
+    * picp2.com
+    * imgrex.com
+    * img3x.com
+    * imagevau.eu
+    * img.deli.sh
+    * imgsicily.it
+    * pictureshoster.com
+    * javcity.com
+    * imgtheif.com
+    * imgsure.com
+    * imguniversal.com
+    * imgpaying.com
+    * imgmega.com
+    * imgzeus.com
+    * imgmaid.net
+    * imzdrop.com
+    * imgdrive.co
+    * cuteimg.cc
+    * imgtiger.org
+    * imggold.org
+    * myimg.club
+    * foxyimg.link
+    * coreimg.net
+    * chronos.to
+    * imgnova.xyz
+    * hentai-hot.xyz
+    * hentai-king.online
+    * imglocker.com
+    * imgleech.com
+    * img.pornleech.com
+    * imgsense.com
+    * imagebic.com
+    * daily-img.com
+    * picangel.in
+    * imgbin.me
+    * img3x.net
+    * img24.org
+    * imagik.fr
+    * hostingfailov.com
+    * imagecherry.com
+    * fotoszok.pl.com
+    * picturevip.com
+    * uploadimage.eu
+    * anonpic.com
+    * imagepix.org
+    * imageheli.com
+    * imgtube.net
+    * pixliv.com
+    * imagearn.com
+    * image18.org
+    * hentaimg.com
+    * ghanaimages.co
+    * blackcatpix.com
+    * fastpics.net
+    * ifap.co
+    * avenuexxx.com
+    * 2imgs.com
+    * xlink.me
+    * wzzq.me
+    * victly.com
+    * upan.so
+    * ultshare.com
+    * typ.me
+    * dlneko.com
+    * dlneko.net
+    * dlneko.org
+    * rumahsimpel.com
+    * safelinkair.com
+    * healthygress24.ga
+    * kombatch.amankan.link
+    * gadget14.pw
+    * auto14.pw
+    * nar-04.tk
+    * gadget13.com
+    * autorp.us
+    * anisubsia.tk
+    * insurance1.tech
+    * freeanimeonline.xyz
+    * shorten.id
+    * getcomics.gq
+    * miuitutorial.gq
+    * awsubs.cf
+    * awsubsco.ga
+    * satuasia.com
+    * tawaku.com
+    * link.filmku.net
+    * muucih.com
+    * telolet.in
+    * designinghomey.com
+    * sinopsisfilmku.com
+    * sidespace.net
+    * erogedownload.net
+    * otoviral.racing
+    * sipkur.us
+    * aw-games.net
+    * ww3.manteb.in
+    * streamingfrench.net
+    * stash-coins.com
+    * srnk.co
+    * smll.io
+    * shortskip.com
+    * shortenurl.tk
+    * pengaman.link
+    * urlgo.gs
+    * shink.in
+    * qaafa.com
+    * digg.to
+    * short.est
+    * setlinks.us
+    * robo.us
+    * riurl.com
+    * rijaliti.info
+    * reffbux.com
+    * rapeit.net
+    * oxyl.me
+    * ohleech.com
+    * mt0.org
+    * moe.god.jp
+    * moesubs.akurapopo.pro
+    * dl.nsfk.in
+    * madlink.sk
+    * mantap.in
+    * mantab.in
+    * mantep.in
+    * manteb.in
+    * st.oploverz.net
+    * awaremmxv.com
+    * looy.in
+    * loook.ga
+    * lnx.lu
+    * lnk.in
+    * indexmovie.me
+    * ilix.in
+    * priva.us
+    * leechbd.tk
+    * link-protector.com
+    * link2dollar.com
+    * cvc.la
+    * boxcash.net
+    * anonymbucks.com
+    * 3ra.be
+    * 2ty.cc
+    * adjet.biz
+    * adfe.es
+    * dereferer.website
+    * dikit.in
+    * elde.me
+    * ethi.in
+    * fit.sh
+    * fundurl.com
+    * gca.sh
+    * repla.cr
+    * go2.me
+    * linkajc.com
+    * link5s.com
+    * fastdecode.com
+    * linkdolar.xyz
+    * linkpaid.net
+    * dapat.in
+    * cf.ly
+    * link.animagz.org
+    * gunting.in
+    * linc.ml
+    * adcrun.ch
+    * 1tk.us
+    * adbla.us
+    * tl7.us
+    * gx.si
+    * adwat.ch
+    * fly2url.com
+    * urlwiz.com
+    * ultry.net
+    * wwy.me
+    * myam.me
+    * ssl.gs
+    * srk.gs
+    * cun.bz
+    * vizzy.es
+    * kazan.vc
+    * linkcash.ml
+    * adtr.im
+    * goolink.me
+    * earningurl.com
+    * sflnk.me
+    * 3rabshort.com
+    * adlink.guru
+    * cypt.ga
+    * filesbucks.com
+    * elink.link
+    * payurl.me
+    * url.ht
+    * pir.im
+    * bol.tl
+    * adfly.tc
+    * kokemoon.com
+    * top9space.com
+
+## v6.11.0
+
+* fixed
+    * adf.ly
+    * 123link.pw
+    * 1dl.biz
+    * 1be.biz
+    * cut4links.com
+    * tmearn.com
+    * clik.pw
+* added
+    * adsvy.com
+    * vnurl.net
+    * short2win.com
+    * dz4link.com
+    * royurls.bid
+    * gameinfo.pw
+    * adshort.co
+    * tocdo.in
+    * iiv.pl
+    * animeforce.stream
+    * oload.win
+* removed
+    * freegaysitepass.com
+    * fuestfka.com
+    * deb.gs
+    * sexpalace.gs
+    * dumppix.com
+    * postimg.net
+    * imageview.me
+    * hentai-hosting.com
+    * javtotal.com
+    * imgurban.info
+    * d69.in
+    * images.maxigame.by
+    * gratisimage.dk
+    * npicture.net
+    * onlinepic.net
+    * imgurx.net
+    * z.gs
+    * adultmove.info
+    * reducelnk.com
+    * amy.gs
+    * any.gs
+    * dyo.gs
+    * imgdream.net
+    * imgnm.net
+    * imgsilo.net
+    * imgsoo.net
+    * imagepearl.com
+    * imagecrest.com
+    * itmages.ru
+    * 1pics.ru
+    * javelite.tk
+    * crd.ht
+    * adshort.im
+    * adshort.pro
+    * adshort.in
+    * daily-img.com
+    * img-365.com
+    * 365-img.com
+    * xxx.porn0day.com
+    * picamatic.com
+    * ehdwallpapers.org
+    * imgdomino.com
+    * emptypix.com
+    * imageleon.com
+    * sexyxpixels.com
+    * gallerysense.se
+    * gallerynova.se
+    * maxmirror.com
+    * larashare.com
+    * iori.us
+    * firedrive.com
+    * arab.sh
+    * anafile.com
+    * ysf.pl
+    * zo.mu
+    * zzz.gl
+    * mypixxx.lonestarnaughtygirls.com
+    * h-animes.info
+
+## v6.10.0
+
+* fixed
+    * mirrorcreator.com
+    * imgadult.com
+    * imgwallet.com
+    * imgtaxi.com
+    * telondasmu.com
+    * imgprime.com
+    * clk.press
+    * short.pe
+    * urlcloud.us
+    * ourl.io
+    * linkdrop.net
+    * adf.ly
+* added
+    * cutl.in
+    * cut4link.com
+    * mikymoons.com
+    * twik.pw
+    * spamlink.org
+    * pnd.tl
+    * top9space.com
+    * mylink.zone
+    * 3bst.co
+    * shortit.ca
+    * 3rabcut.com
+* changed
+    * recaptcha for spaste.com
+* removed
+    * clictune.com
+    * susutin.com
+    * shortit.in
+
+## v6.9.0
+
+* fixed
+    * openload.co
+* added
+    * imgfile.net
+    * henpoi.lompat.in
+    * aw-games.net
+    * viralukk.com
+    * clk.press
+    * pixxxels.cc
+    * imx.to
+    * pixhost.to
+    * gsul.me
+    * getsl.me
+    * gsur.in
+    * cutearn.ca
+    * earnbig.ca
+    * shrt10.com
+    * ur.ly
+    * urly.mobi
+    * apasih.pw
+    * ewa.ac
+* removed
+    * pixxxels.org
+    * img.yt
+    * pixhost.org
+
+## v6.8.0
+
+* fixed
+    * imagepearl.com
+    * imgdrive.net
+    * shink.me
+* added
+    * shark.vn
+    * safelinku.net
+    * kokemoon.com
+    * earn-guide.com
+    * oload.site
+    * icutit.ca
+    * psl.pw
+    * mylink.zone
+    * shortad.cf
+    * pic.hotimg.site
+    * zbqhfbetlmni.net
+    * greget.space
+    * shrinkearn.com
+    * petty.link
+* removed
+    * jzrputtbut.net
+
+## v6.7.0
+
+* fixed
+    * imgprime.com
+    * openload.co
+    * coinlink.co
+    * clictune.com
+    * trlink.in
+* added
+    * 123link.pw
+    * gurl.ly
+    * adpop.me
+    * wi.cr
+    * short.pe
+    * srt.am
+    * linkrex.net
+    * coshink.co
+    * urlcloud.us
+    * 3rabshort.com
+    * gsul.me
+    * getsl.me
+    * adbitly.in
+    * gg-l.xyz
+    * mitly.us
+    * tui.click
+    * gsur.in
+    * shink.xyz
+    * mlink.club
+    * dzurl.ml
+    * zlshorte.net
+    * igram.im
+    * gram.im
+    * wolink.in
+    * bit-url.com
+    * git.tc
+    * link4.me
+    * premiumzen.com
+    * megaurl.in
+    * siotong.com
+    * siherp.com
+    * otoviral.racing
+    * lifesurance.info
+    * cut4links.com
+    * plantaheim.web.id
+    * imagexport.com
+    * adshort.pro
+    * cut-w.in
+    * cut-earn.com
+    * cuon.io
+    * zeiz.me
+    * adsrt.com
+    * imgfresh.info
+    * 1ink.cc
+    * jurl.io
+    * adslink.pw
+* removed
+    * zez.io
+    * coshurl.co
+
+## v6.6.0
+
+* fixed
+    * clictune.com
+    * adyou.me
+    * imgrock.info
+    * imgdew.com
+* added
+    * ourl.io
+    * cutwin.com
+    * cutwi.in
+    * adyou.co
+    * imgsky.net
+    * picker-click.ru
+    * imgoutlet.pw
+* removed
+    * imgoutlet.co
+    * link.tl
+
+## v6.5.0
+
+* fixed
+    * linkdrop.net
+* added
+    * adbilty.me
+    * oke.io
+    * susutinv2.com
+    * njiir.com
+* removed
+    * zytpirwai.net
+
+## v6.4.1
+
+* fixed
+    * lite edition bug
+
+## v6.4.0
+
+* fixed
+    * ally.sh
+    * idsly.com
+* added
+    * GreaseMonkey v4 support
+    * oload.stream
+    * 123link.co
+    * 123link.press
+    * adshort.im
+    * p0xpicmoney.ru
+    * compartiendofull.net
+    * l2s.io
+    * curs.io
+    * clik.pw
+    * weefy.me
+    * coshurl.co
+* removed
+    * adshort.co
+
+## v6.3.0
+
+* fixed
+    * imgrock.info
+    * imagecrest.com
+    * clictune.com
+* added
+    * imghost.top
+    * croea.com
+    * xxx.pornscreen.xyz
+    * imgpart.com
+    * shink.me
+    * oload.info
+    * 123link.io
+* removed
+    * 123link.top
+
+## v6.2.1
+
+* fixed
+    * mirrorcreator.com
+    * configuration page
+
+## v6.2.0
+
+* fixed
+    * sipkur.us
+* added
+    * xxxwebdlxxx.org
+    * u2s.io
+    * imagespicy.site
+    * linclik.com
+    * link-earn.com
+    * autolinkach.com
+    * zez.io
+    * adbull.me
+    * adshort.co
+    * adshorte.com
+
+## v6.1.4
+
+* fixed
+    * legacy browser support
+
+## v6.1.3
+
+* fixed
+    * adf.ly
+
+## v6.1.2
+
+* fixed
+    * bc.vc
+    * jzrputtbut.net
+
+## v6.1.1
+
+* fixed
+    * configuration page
+    * 55888.eu
+    * ouo.io
+    * spaste.com
+
+## v6.1.0
+
+* changed
+    * Trying to fix compatibility to Violentmonkey
+* fixed
+    * ouo.io
+    * imgdrive.net
+    * fas.li
+    * adf.ly
+    * prntscr.com
+    * short.am
+    * urlcash.net
+    * idsly.com
+* added
+    * imgrock.info
+* removed
+    * imgrock.net
+
+## v6.0.0
+
+* changed
+    * rewrite to ES7
+    * rewrite build system
+
+## v5.73.0
+
+* fixed
+    * techfunda.net
+    * imgseed.com
+    * imagecrest.com
+    * imagetwist.com
+    * shink.in
+* added
+    * topload.pro
+    * jzrputtbut.net
+    * telondasmu.com
+    * acidimg.cc
+
+## v5.72.0
+
+* fixed
+    * pronpic.org
+    * safelinkreviewer.co
+    * linkshrink.net
+    * imgwallet.com
+* added
+    * imgoutlet.co
+* removed
+    * igg-games.com
+
+## v5.71.0
+
+* fixed
+    * short.am
+    * xlink.me
+    * xxx.porn0day.com
+    * pic4you.ru
+    * pic5you.ru
+    * keptarolo.hu
+    * h-animes.info
+    * adultmove.info
+    * imgult.com
+    * imagenpic.com
+    * shrink-service.it
+* added
+    * short.awsubs.me
+    * imgreality.com
+    * corneey.com
+    * ceesty.com
+    * destyy.com
+    * festyy.com
+    * gestyy.com
+* removed
+    * leechpremium.space
+    * empireload.com
+    * loadsanook.com
+    * a.pomf.se
+    * yfrog.com
+
+## v5.70.0
+
+* fixed
+    * ad7.biz
+    * bc.vc
+    * imagepearl.com
+    * imagecrest.com
+    * prevent loop if it failed to update configurations
+* added
+    * imgtorrnt.in
+    * mylink.us
+* removed
+    * mirrorupload.net
+    * dewaurl.com
+    * imageberyl.com
+    * cuzle.com
+    * forbes.com
+    * comicon.com.br
+    * ichan.org
+    * free-tv-video-online.info
+    * linkarus.com
+
+## v5.69.0
+
+* fixed
+    * imgrock.net
+    * ah.pe
+    * Tampermonkey compatibility for Firefox
+* added
+    * earningurl.com
+    * adshort.in
+    * linkhits.us
+    * clkmein.com
+    * awsubsco.ga
+    * autorp.us
+
+## v5.68.2
+
+* fixed
+    * adf.ly sub-domains
+
+## v5.68.1
+
+* fixed
+    * script error
+
+## v5.68.0
+
+* fixed
+    * adf.ly
+    * link.tl
+    * blogspot.com
+* added
+    * adfu.us
+    * short.awsubs.co
+    * ww2.awsubs.co
+    * ima.gy
+    * erogedownload.net
+    * linkpoi.in
+    * telolet.in
+    * mirrorfilehost.com
+    * short.pastewma.com
+    * wiid.me
+    * clkme.me
+    * trlink.in
+    * adfly.tc
+    * linkfly.gaosmedia.com
+    * cpmlink.net
+    * gsurl.in
+    * bluenik.com
+
+## v5.67.0
+
+* fixed
+    * imgrock.net
+    * imgtaxi.com
+    * shrink-service.it
+    * shink.in
+    * al.ly
+* added
+    * cllkme.com
+
+## v5.66.0
+
+* fixed
+    * ouo.io
+    * img.yt
+* added
+    * hashe.in
+    * cut-urls.com
+    * tmearn.com
+
+## v5.65.0
+
+* fixed
+    * susutin.com
+    * fas.li
+* added
+    * url.ht
+    * urle.co
+    * looy.in
+    * picz.site
+    * imgpix.net
+    * oload.tv
+    * ally.sh
+    * sinopsisfilmku.com
+    * awsubs.cf
+    * igg-games.co
+    * shrink-service.it
+    * techfunda.net
+    * tl.tc
+    * sidespace.net
+    * cshort.org
+    * pdi2.net
+* changed
+    * trying to fix problem for usi
+
+## v5.64.0
+
+* fixed
+    * shink.in
+    * pixsense.net
+    * freeimgup.com
+    * imgtown.net
+    * linkdrop.net
+    * coinlink.co
+* added
+    * croco.site
+    * imgdomino.com
+    * imagesnake.org
+    * xiw34.com
+    * sipkur.us
+    * fiuxy.co
+* removed
+    * fiuxy.net
+
+## v5.63.2
+
+* fixed
+    * remove click event blocker, broken by design
+
+## v5.63.1
+
+* fixed
+    * trying to fix click event blocker
+
+## v5.63.0
+
+* fixed
+    * img.yt
+    * imgrock.net
+    * coinlink.co
+    * linkdrop.net
+    * pixsense.net
+    * freeimgup.com
+* added
+    * worldhack.net
+    * linkdolar.xyz
+    * sehatlega.com
+    * 123link.top
+    * 10co.biz
+    * 10co.xyz
+    * 10co.co
+    * 10co.me
+    * pir.im
+    * bol.tl
+    * zintata.com
+    * radikal.ru
+    * indexmovie.xyz
+    * urlst.me
+    * imgprime.com
+    * ilovebanten.com
+    * idsly.com
+
+## 5.62.1
+
+* fixed
+    * imgrock.net
+    * lynk.my
+
+## 5.62.0
+
+* fixed
+    * img.yt
+    * pixhost.org
+* added
+    * catcut.net
+    * adurl.id
+    * goolink.me
+    * filesbucks.com
+    * ani-share.com
+    * elink.link
+    * payurl.me
+    * gunting.web.id
+    * adyou.me
+    * gsurl.me
+    * g5u.pw
+    * azhie.net
+* removed
+    * eafyfsuh.net
+    * sasontnwc.net
+
+## 5.61.2
+
+* fixed
+    * xxxhost.me
+    * imgking.co
+
+## 5.61.1
+
+* fixed
+    * img.yt
+    * lynk.my
+
+## 5.61.0
+
+* fixed
+    * picnictrans.com
+    * imgking.co
+    * linkdrop.net
+    * imgclick.net
+* added
+    * star-hentai.com
+    * autofans.pw
+    * vavi.co
+    * miuitutorial.gq
+    * kombatch.loncat.pw
+    * landscapenature.pw
+    * pixxxels.org
+    * xxxhost.me
+    * gadget13.com
+    * imgfapper.com
+    * qaafa.com
+    * viid.me
+    * safelinkreview.co
+    * decrypt.safelinkconverter.com
+    * blogspot.com
+    * short.est
+    * ulshare.net
+    * imgshots.com
+* removed
+    * postimg.org
+
+## 5.60.6
+
+* fixed
+    * mirrorcreator.com
+    * compul.in
+    * ah.pe
+    * adf.ly
+    * linkdrop.net
+    * dmus.in
+
 ## 5.60.5
 
 * fixed

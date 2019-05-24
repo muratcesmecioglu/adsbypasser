@@ -1,227 +1,127 @@
 * adf.ly
+    * (universally handled)
 * linkbucks
     * allanalpass.com
-    * amy.gs
-    * any.gs
-    * cash4files.com
-    * deb.gs
     * drstickyfingers.com
-    * dyo.gs
-    * eafyfsuh.net
-    * fapoff.com
     * filesonthe.net
     * freean.us
-    * freegaysitepass.com
-    * fuestfka.com
-    * galleries.bz
-    * goneviral.com
-    * hornywood.tv
     * linkbabes.com
     * linkbucks.com
-    * megaline.co
     * miniurls.co
-    * picbucks.com
     * poontown.net
     * qqc.co
+    * rhvgmritmziwcm.net
     * rqq.co
-    * sasontnwc.net
     * seriousdeals.net
-    * sexpalace.gs
     * theseblogs.com
-    * theseforums.com
     * tinylinks.co
-    * tnabucks.com
-    * tubeviral.com
-    * ultrafiles.net
     * urlbeat.net
     * whackyvidz.com
     * youfap.me
     * yyv.co
     * zatnawqy.net
-    * zytpirwai.net
-    * zff.co
 * Mihalism Multi Host
-    * 244pix.com
-    * cdn.javtotal.com
-    * dumppix.com
-    * dwimg.com
-    * empireload.com
     * funextra.hostzi.com
-    * hentai-hosting.com
     * imagecurl.com
     * imagecurl.org
-    * imagepong.info
-    * imageview.me
-    * img3x.com
     * imgcentral.com
-    * imgcream.com
-    * imgdream.net
     * imgnip.com
-    * imgnm.net
-    * imgsilo.net
     * imgsin.com
-    * imgsoo.net
-    * loadsanook.com
     * miragepics.com
     * nixhelp.de
     * overpic.net
-    * pictureshoster.com
-    * postimg.net
+    * xxxhost.me
 * reklama
-    * 08lkk.com
-    * 18pron.ru
-    * 24avarii.ru
+    * 22pixx.xyz
+    * acidimg.cc
     * ads-img.info
-    * adultimg.org
-    * bokimage.com
-    * bulkimg.info
-    * croftimage.com
     * damimage.com
-    * darpix.desi
     * darpix.ga
     * dimtus.com
     * domaink.ru
-    * dragimage.org
-    * ericsony.com
+    * ecoimages.xyz
     * erimge.com
-    * fapat.me
-    * fapingpics.com
-    * freephotohostin.com
     * funimg.net
     * gallerycloud.net
-    * goimg.xyz
-    * goimge.com
-    * golfpit.net
     * greasyimage.com
-    * hentai-baka.com
-    * hentai-king.host
+    * hdmoza.com
     * hentai-pop.com
     * hosturimage.com
     * hotimage.uk
     * hotimages.eu
-    * image.adlock.org
+    * ima.gy
+    * imageblinks.com
     * imagecorn.com
-    * imagecrest.com
     * imagedecode.com
-    * imagefolks.com
-    * imagehorse.com
-    * imagelaser.net
+    * imageko.com
     * imageon.org
-    * imageontime.com
-    * imagepicsa.com
     * imagerar.com
-    * imagesouls.net
+    * imagescanner.cc
+    * imageshtorm.com
+    * imagespublic.tk
     * imageteam.org
-    * img-hentai.host
-    * img-king.xyz
-    * img-pay.com
-    * img-planet.com
-    * img-pop.info
-    * img-uploads.com
-    * img-view.net
-    * img-zone.com
-    * img.spicyzilla.com
-    * img.yt
-    * img22.com
     * img2share.com
-    * img4sharing.com
     * imgadult.com
-    * imgban.com
-    * imgbb.net
-    * imgbeer.com
-    * imgbinbou.com
-    * imgblank.com
-    * imgblow.com
-    * imgboom.net
-    * imgcandy.net
+    * imgbalana.com
     * imgcloud.co
-    * imgcoin.net
-    * imgcover.com
-    * imgdevil.com
+    * imgcloud.pw
     * imgdrive.net
-    * imgease.re
-    * imgfap.net
-    * imghere.net
+    * imgfapper.com
+    * imgfresh.info
     * imghit.com
+    * imghost.top (variation)
     * imgicy.com
+    * imgjazz.com
     * imgkicks.com
     * imgking.co
     * imgkings.com
     * imglemon.com
-    * imgload.me
-    * imgmag.co
     * imgmain.com
-    * imgmaster.net
-    * imgnext.com
-    * imgnimz.com
-    * imgplus.ru
+    * imgpart.com
+    * img-pay.com
+    * imgpix.net
+    * img-planet.com
+    * imgprime.com
     * imgproject.net
-    * imgpu.com
     * imgpython.net
     * imgrat.com
     * imgreputa.com
-    * imgrun.net
     * imgsavvy.com
     * imgseed.com
     * imgseeds.com
-    * imgsen.se
     * imgserve.net
-    * imgslip.com
     * imgspot.org
     * imgstudio.org
-    * imgtor.pw
     * imgtaxi.com
     * imgtornado.com
     * imgtrial.com
-    * imgtwyti.com
     * imgtzar.com
-    * imgult.com
+    * img-view.net
     * imgwallet.com
-    * imgwet.com (captcha)
-    * imgxyz.net
-    * imgzizi.xyz
+    * imx.to
     * ipicture.su
-    * jav-hentai.host
-    * javtotal.com
-    * lexiit.com
-    * loftlm.ru
     * megaimage.org
-    * myhotimage.com
-    * myimg.info
+    * multiimg.com
     * naughtygate.net
-    * newimagepost.com
-    * nimplus.com
     * nimzshare.com
-    * nudeximg.com
-    * photo-up.info
-    * pic2pic.ru
-    * pic2pic.site
-    * pic4you.top
-    * picspornfree.me
-    * picstwist.com
-    * picture-bang.net
-    * pix-link.net
+    * pic.hotimg.site
+    * picmoza.com
+    * picstate.com
+    * picz.site
     * pixup.us
-    * pixxx.me
-    * playimg.com
     * pop-img.info
     * porno-pirat.ru
-    * project-photo.net
-    * shotimg.org
-    * sxpics.nl
+    * star-hentai.com
     * teenimage.org
     * teenshot.org
-    * thumbnailus.com
     * tinizo.com
-    * vava.in
     * voyeurimage.org
     * wpc8.com
     * xximg.net
-    * xxximagenow.com
+    * xxx.pornscreen.xyz
+    * xxx.sexex.xyz
     * xxxscreens.com
-    * xxxsparrow.com
-    * zeljeimage.com
-    * zonezeedimage.com
+    * xxxwebdlxxx.org
 * imageporter
     * imagecarry.com
     * imagedunk.com
@@ -233,84 +133,39 @@
     * picturedip.com
     * pictureturn.com
     * yankoimages.net
-* CF Image Host
-    * d69.in
-    * ghanaimages.co
-    * imgurban.info
-    * mypixxx.lonestarnaughtygirls.com
-    * x45x.info
 * picfox
     * amateurfreak.org
     * euro-pic.eu
     * freeimage.us
-    * gratisimage.dk
     * holdthemoan.net
-    * images.maxigame.by
-    * imgurx.net
+    * imguur.pictures
     * imgz.pw
-    * npicture.net
-    * onlinepic.net
     * picfox.org
     * pixsor.com
-* imgchili
-    * imgchili.com
-    * imgchili.net
 * imgdino
     * imgdino.com
     * imgtiger.com
     * imgzap.com
-* hanimes
-    * adultmove.info
-    * h-animes.info
 * abload
     * abload.de
     * fastpic.ru
-    * imageberyl.com
-    * imagepearl.com
     * imageup.ru
-    * itmages.ru
 * bc.vc
-    * 1tk.us
     * ad5.eu
-    * adbla.us
-    * adcrun.ch
     * adjet.eu
-    * adtr.im
-    * adwat.ch
     * bc.vc
-    * cun.bz
-    * fly2url.com
-    * gx.si
-    * hit.us
-    * kazan.vc
-    * link.tl
-    * linkcash.ml
-    * miniurl.tk
-    * myam.me
-    * shortit.in
+    * mylink.us
     * shrink.gs
-    * ssl.gs
-    * tl7.us
     * tr5.in
-    * ultry.net
-    * urlwiz.com
-    * vizzy.es
-    * wwy.me
     * xafox.com
-    * xip.ir
     * ysear.ch
     * zpoz.net
 * coinurl
     * coinurl.com
     * cur.lv
-* lnxlu
-    * lnx.lu
-    * url.fm
-    * z.gs
 * lnkco
     * lnk.co
     * rdlnk.co
-    * reducelnk.com
 * urlcash
     * bat5.com
     * celebclk.com
@@ -322,8 +177,8 @@
     * pornyhost.com
     * smilinglinks.com
     * urlcash.com
-    * urlcash.org
     * urlcash.net
+    * urlcash.org
     * urlgalleries.com
     * xxxs.org
 * imagesnake
@@ -331,81 +186,44 @@
     * imagefruit.com
     * imageshots.com
     * imagesnake.com
+    * imagesnake.org
     * imgcarry.com
+    * imgshots.com
 * imagetwist
-    * imagecherry.com
     * imagenpic.com
+    * imageshimage.com
     * imagetwist.com
+    * imagexport.com
     * imgtrex.com
-* b4he
-    * b4he.com
-    * fastpics.net
+* fullimg.com
     * freeimgup.com
     * fullimg.com
-    * ifap.co
     * imagep2p.com
-* emptypix
-    * emptypix.com
-    * imageleon.com
-    * overdream.cz
-    * sexseeimage.com
-    * sexyxpixels.com
 * fotoo
     * fotoo.pl
-    * fotoszok.pl
     * imagestime.com
 * freakimage
     * freakimage.com
     * hostpic.org
 * imagevenue
-    * imagevenue.com
     * hotchyx.com
-    * hostingfailov.com
+    * imagevenue.com
 * imgfantasy
     * 0img.net
-    * imagebic.com
     * imagedomino.com
-    * imageporn.eu
-    * img.pornleech.com
     * imgcurl.com
     * imgfantasy.com
-    * imgleech.com
     * imgnemo.com
     * imgsay.com
-    * imgsense.com
-    * imgsmile.com
-    * picangel.in
 * imgbabes
     * imgbabes.com
     * imgflare.com
-* imageheli.com
-    * imageheli.com
-    * imgtube.net
-    * pixliv.com
-* cashfly
-    * cf2.me
-    * cf3.me
-    * cf5.me
-    * cf6.co
-    * cf7.co
-    * ex9.co
-    * xt3.me
 * 2i.cz
     * 2i.cz
     * 2i.sk
-    * 2imgs.com
-* pic2profit.com
-    * pic2profit.com
-    * picp2.com
-* depic.me
-    * depic.me
-    * picamatic.com
 * pic4you.ru
     * pic4you.ru
     * pic5you.ru
-* buzurl.com
-    * buzurl.com
-    * vzturl.com
 * easyurl.net
     * atu.ca
     * clickthru.ca
@@ -414,403 +232,856 @@
     * readthis.ca
     * redirects.ca
 * sh.st
-    * dh10thbvu.com
-    * digg.to
+    * ceesty.com
+    * clkme.me
+    * clkmein.com
+    * cllkme.com
+    * corneey.com
+    * destyy.com
+    * festyy.com
+    * gestyy.com
     * jnw0.com
     * sh.st
-    * u2ks.com
+    * viid.me
+    * wiid.me
 * seomafia.net
     * apploadz.ru
     * seomafia.net
-* imagescream.com
+* all-poster.ru
     * all-poster.ru
-    * anonpic.com
     * bunnyforum.org
-    * imagescream.com
-    * picturescream.asia
-    * picturescream.com
-    * picturevip.com
-    * postscreens.info
-    * uploadimage.eu
-    * xxx.porn0day.com
-* upan.so
-    * upan.so
-    * gxp.so
-* imgpaying.com
-    * chronos.to
-    * coreimg.net
-    * cuteimg.cc
-    * foxyimg.link
+* imgsee.me
     * hulkimge.com
     * imageeer.com
+    * imgant.com
+    * imgbaron.com
     * imgclick.net
-    * imgdew.com
-    * imgdiamond.com
+    * imgdew.pw
     * imgdragon.com
-    * imgdrive.co
     * imgfiles.org
-    * imggold.org
-    * imgmaid.net
-    * imgmaze.com
-    * imgmega.com
+    * imgmaze.pw
     * imgmonkey.com
     * imgoutlet.com
-    * imgpaying.com
-    * imgrock.net
+    * imgoutlet.pw
+    * imgrock.info
+    * imgrock.pw
     * imgsee.me
-    * imgtiger.org
-    * imgtown.net
-    * imguniversal.com
+    * imgtown.pw
     * imgve.com
-    * imgview.net
-    * imgzeus.com
-    * imzdrop.com
-    * ironimg.net
-    * myimg.club
+    * imgview.pw
     * pic-maniac.com
+    * picbaron.com
     * uimgshare.com
     * uploadrr.com
-* imgsure.com
-    * imgsure.com
+* picexposed.com
+    * croea.com
     * picexposed.com
-* firedrive.com
-    * firedrive.com
-    * putlocker.com
-* mantap.in
-    * awaremmxv.com
-    * mantap.in
-    * manteb.in
-    * mantep.in
+* minidroid.net
+    * linkpoi.in
     * minidroid.net
-    * st.oploverz.net
-* moe.god.jp
-    * dl.nsfk.in
-    * moe.god.jp
-    * moesubs.akurapopo.pro
-* ethi.in
-    * ethi.in
-    * st.wardhanime.net
-* shortenurl.tk
-    * pengaman.link
-    * shortenurl.tk
-    * urlgo.gs
-* qrrro.com
-    * greenpiccs.com
-    * qrrro.com
 * sylnk.net
-    * amankan.link
-    * anisubsia.tk
-    * auto14.pw
+    * ad4msan.ml
+    * ad4msan.win
+    * akanosora.com
+    * android-1.com
+    * animeforce.stream
+    * ani-share.com
+    * anjay.info
+    * apasih.pw
+    * autofans.pw
+    * autolinkach.com
+    * autoride.pw
+    * awcar.icu
+    * awsubsco.ml
+    * azhie.net
+    * blogspot.com
+    * bolaoke.club
+    * businessforyouand.me
+    * compartiendofull.net
     * compul.in
-    * designinghomey.com
-    * dlneko.com
-    * dlneko.net
-    * dlneko.org
+    * daunshorte.teknologilink.com
+    * davinsurance.com
+    * decrypt.safelinkconverter.com
+    * decrypt2.safelinkconverter.com
+    * designmyhomee.com
+    * drakorsafe.tech
+    * drivefiles.bid
+    * drivehub.link
+    * drive.jepitkertas.com
+    * download-mirror.ga
+    * dukun-cit.com
     * edogawa.lon.pw
     * filmku.lompat.in
-    * freeanimeonline.xyz
-    * gadget14.pw
-    * getcomics.gq
+    * fmlawkers.club
+    * gameinfo.pw
+    * getinfos.net
+    * giga74.com
+    * goou.in
     * gtaind.com
-    * healthygress24.ga
-    * insurance1.tech
+    * healthtod.com
+    * henpoi.lompat.in
+    * hexafile.net
+    * hikarinoakariost.info
+    * id-securelink.xyz
+    * idnation.net
+    * indexmovie.club
+    * intercelestial.com
+    * irisvera.com
+    * jaburalink.blogspot.com
+    * kakkoiisafe.us
+    * kombatch.loncat.pw
+    * kurosafe.menantisenja.com
+    * kurosafe.online
+    * kurosafe.website
+    * kurosafety.menantisenja.com
+    * landscapenature.pw
+    * lewat.in
+    * lewat.wibuindo.com
+    * lifesurance.info
     * lindung.in
-    * link.filmku.net
-    * manteb.in
+    * lindung.me
+    * link.safelinkconverter.com
+    * linkach.com
+    * lonelymoon.net
+    * losstor.com
     * motonews.club
     * motosport.pw
-    * muucih.com
     * naisho.lompat.in
-    * nar-04.tk
-    * rumahsimpel.com
-    * safelinkconverter2.com
+    * naturalhealthy.xyz
+    * nekopoi.ga
+    * njiir.com
+    * nooyul.co
+    * omglyrics.com
+    * omgmusik.com
+    * pafpaf.info
+    * pebisnis-muda.com
+    * plantaheim.com
+    * plantaheim.web.id
+    * safelinkconverter.com
+    * safelinkreview.co
     * safelinkreview.com
-    * safelinkreviewer.com
-    * safelinksreview.com
-    * satuasia.com
+    * safelinkreviewx.com
+    * sardeath.com
+    * sehatlega.com
+    * sehatsegar.net
+    * short.awsubs.co
+    * short.awsubs.me
+    * skinnycat.net
+    * skinnycat.org
+    * skyinsurance.ml
+    * spacetica.com
+    * speedcar.club
     * sports14.pw
     * srelink.com
-    * susutin.com
+    * starzone.cc
+    * stt.awsubs.co
+    * sweetlantern.com
     * sylnk.net
-    * tawaku.com
-* gca.sh (manual captcha)
-    * gca.sh
-    * repla.cr
+    * technlab.com
+    * teknosafe.teknologilink.com
+    * telolet.in
+    * tetew.info
+    * tojros.tk
+    * tout-debrid.net
+    * travelwithtricks.me
+    * unduh.in
+    * url.hulblog.com
+    * wibuindo.xyz
+    * ww2.awsubs.co
+    * yametesenpai.xyz
 * segmentnext.com
     * segmentnext.com
     * videogameblogger.com
-* gallerynova.se
-    * gallerynova.se
-    * gallerysense.se
 * dailyss.net
-    * 365-img.com
-    * daily-img.com
     * dailyss.net
     * i.hentai-ddl.org
-    * img-365.com
+    * imghost.top
 * adb.ug
     * adb.ug
+    * adyou.co
     * adyou.me
     * lynk.my
-* link4ad.com
-    * link4ad.com
-    * linkajc.com
 * coeg.in
     * coeg.in
     * disingkat.in
-    * gunting.in
-    * link.animagz.org
+    * greget.space
+    * siherp.com
+    * siotong.com
     * sipkur.net
-* imgnova.xyz
-    * hentai-hot.xyz
-    * hentai-king.online
-    * imgnova.xyz
+    * telondasmu.com
 * ouo.io
+    * novaenreta.space
     * ouo.io
     * ouo.press
-* shink.in
+    * sloomp.space
+* fas.li
+    * cpmlink.net
     * croco.me
+    * croco.site
     * fas.li
-    * shink.in
-* cuzle.com
-    * cuzle.com
-    * shorten.id
-* adlink.guru
-    * adlink.guru
-    * cypt.ga
+    * likn.xyz
+    * shink.me
+    * shon.xyz
+* linkdrop.net
+    * 123link.co
+    * 123link.carpartsviet97.site
+    * 123link.io
+    * 123link.press
+    * 123link.pro
+    * 123link.pw
+    * 123link.vip
+    * 123short.biz
+    * 1921681254.tech
+    * 1idsly.com
+    * 2fly.me
+    * 3bst.co
+    * 3rab-cash.com
+    * 3rabcut.com
+    * 4cut.io
+    * 4short.tk
+    * 5brgedid.com
+    * 6aba2day.com
+    * 8o.ee
+    * a-egy.com
+    * abouttech.space
+    * adbilty.me
+    * adbitly.in
+    * adbull.me
+    * adcoin.me
+    * adfu.us
+    * adlpu.com
+    * admew.com
+    * adpaytm.com
+    * adpop.me
+    * adshort.co
+    * adshorte.com
+    * adskipme.com
+    * adslink.pw
+    * adsrt.com
+    * adsrt.me
+    * adsvy.com
+    * adurl.id
+    * advance-wishingjs.com
+    * advancedautorepairtips.me
+    * adzurl.cf
+    * agradarpan.com
+    * akla4.com
+    * al3amall.com
+    * allreports.site
+    * amenitiees.com
+    * arba7co.com
+    * arba7kpro.com
+    * autech.xyz
+    * autocarsmagz.xyz
+    * bakilink.com
+    * beast-birds.com
+    * bestscholaeshipdegree.date
+    * bit-url.com
+    * bloggerworld.online
+    * bloggingdekh.xyz
+    * blogginggyanbox.com
+    * bloggingraja.com
+    * boardgift.com
+    * btc.ms
+    * businessiss2.info
+    * buy-in-599rs.win
+    * buyitonline.store
+    * by6dk.com
+    * cashat.net
+    * chrt.pw
+    * ckk.ai
+    * cl250.club
+    * click2-url.com
+    * click2see.desi
+    * click2url.online
+    * clik.pw
+    * clixg.com
+    * clk.icu
+    * clk.ink
+    * clk.press
+    * clk.sh
+    * clkpay.com
+    * clkpays.com
+    * cll.press
+    * coinlink.co
+    * converthinks.xyz
+    * coolmitten.com
+    * cooltxtgen.com
+    * coshink.co
+    * cosmicmony.com
+    * counsellingresult2016.in
+    * cpm4all.ga
+    * crabcut.net
+    * crus.io
+    * cu2.io
+    * cu3.io
+    * cuee.io
+    * cuio.io
+    * cuon.io
+    * curs.co
+    * curs.io
+    * cut-earn.com
+    * cut-urls.com
+    * cut-w.in
+    * cut-win.com
+    * cut4link.com
+    * cut4links.com
+    * cutadlink.net
+    * cutearn.ca
+    * cuti.in
+    * cutl.in
+    * cutls.co
+    * cuto.io
+    * cutpaid.com
+    * cutsouf.com
+    * cuturl.in
+    * cutwi.in
+    * cutwin.com
+    * cutwin.us
+    * cuus.io
+    * cyahealth.com
+    * daily-sale.in
+    * directedlink.net
+    * dislooks.com
+    * dmus.in
+    * downloaddoom.com
+    * dutchycorp.space
+    * dz4link.com
+    * dzurl.ml
+    * e2s.cc
+    * earn.theplusit.ro
+    * earn-guide.com
+    * earn-url.com
+    * earnbig.ca
+    * earnmoneytalk.com
+    * earnwithshortlink.com
+    * eatings.stream
+    * efshort.com
+    * eklink.net
+    * el3id.site
+    * elkhbrel7sry.com
+    * ely-om7.com
+    * empearn.com
+    * empireshort.com
+    * enewstalk.com
+    * enrt.eu
+    * ershadat.com
+    * ez4link.org
+    * fabsdeals.com
+    * factural.com
+    * fc.lc
+    * flaz.link
+    * foxurl.net
+    * funnyquiz.blog
+    * gamesindians.com
+    * geki.tech
+    * getfreshcloud.xyz
+    * getlink.pw
+    * getpocket.xyz
+    * gg-l.xyz
+    * gifsis.com
+    * git.tc
+    * glory-link.com
+    * gocitlink
+    * gossipcorners.com
+    * govtsmartjob.com
+    * gram.im
+    * haxrs.com
+    * healthhindigyan.in
+    * icutit.ca
+    * icutlink.com
+    * idsly.bid
+    * idsly.com
+    * idsly.net
+    * idsly.org
+    * igram.im
+    * iitjeemainguide.in
+    * ilinkshortx.com
+    * imageoptimizer.us
+    * infotrendy.me
+    * itiad.com
+    * itiurl.co
+    * jainjinvani.com
+    * jejaklagu.com
+    * jelajahinternet.me
+    * jurl.io
+    * khabratk.com
+    * khraba.com
+    * kidsors.xyz
+    * koylinks.win
+    * kpscthulasilogin.info
+    * kutpay.com
+    * kuylink.com
+    * l2s.io
+    * lapak.link
+    * li-nkz.com
+    * licklink.net
+    * lin65.me
+    * linclik.com
+    * link-zero.com
+    * link2link.cf
+    * link4.me
+    * link4win.com
+    * link4win.net
+    * link5s.co
+    * linkdrop.net
+    * linkexa.com
+    * linkfay.com
+    * linkfly.gaosmedia.com
+    * linkorlink.com
+    * linkrex.net
+    * linksad.net
+    * linksht.com
+    * linku.us
+    * linkvip.tk
+    * ln11.xyz
+    * ln435.online
+    * lnkjob.com
+    * lnks4all.com
+    * loadurl.com
+    * lopte.pro
+    * lotechnocan.org
+    * lpe.pw
+    * lwt.pw
+    * lyon.kim
+    * makeurl.co
+    * man2pro.com
+    * marivelkece.xyz
+    * mawdok.com
+    * megaurl.in
+    * megaurl.link
+    * merdekaid.online
+    * met.bz
+    * mikymoons.com
+    * miniurl.pw
+    * mitly.us
+    * mlink.club
+    * mooddisorder.co
+    * mrfourtech.com
+    * mykinggo.com
+    * newsinjules.com
+    * newskart.xyz
+    * newupdatesonline.com
+    * niagoshort.com
+    * nikkarr.com
+    * oke.io
+    * oko.sh
+    * ommantrameditation.com
+    * onaah.com
+    * oturl.com
+    * ourl.io
+    * partqb2i.com
+    * payshorturl.com
+    * payskip.me
+    * payskip.org
+    * petty.link
+    * pingit.im
+    * pinkhindi.com
+    * pnd.tl
+    * premiumzen.com
+    * profitstudy.xyz
+    * programsfre.com
+    * psl.pw
+    * pss.pw
+    * raolink.com
+    * razerflixs.com
+    * reb7konline.com
+    * royalown.review
+    * royurls.bid
+    * safelinkblogger.com
+    * safelinku.net
+    * sciencelife.ga
+    * sh11.xyz
+    * shink.xyz
+    * shln.pw
+    * shophipro.xyz
+    * short.pastewma.com
+    * short.pe
+    * short2win.com
+    * short2win.me
+    * short2win.net
+    * shortad.cf
+    * shortearn.eu
+    * shorted.id
+    * shortglobal.com
+    * shortit.ca
+    * shortlinko.com
+    * shortly.xyz
+    * shortye.net
+    * shrink.vip
+    * shrinkbuck.com
+    * shrinkearn.com
+    * shrt8.com
+    * shrt10.com
+    * shrten.xyz
+    * shrtfly.com
+    * shrtfly.net
+    * simaholina.xyz
+    * sk-ip.ru
+    * skip.az
+    * skips.link
+    * skipurls.com
+    * smarteasystudy.com
+    * spamlink.org
+    * srtfly.com
+    * stfly.press
+    * suarankri.me
+    * sxtsquad.com
+    * szs.pw
+    * tabakhelo.com
+    * tabeikh.com
+    * taive.in
+    * takeitfor.me
+    * talkittechy.com
+    * tarnwh2i.com
+    * tech4utoday.com
+    * techandreview.info
+    * techfinda.com
+    * techinhub.xyz
+    * techkti.com
+    * techmen-world.com
+    * technocanvas.xyz
+    * templink.org
+    * thegyaanipoint.com
+    * thin.at
+    * tiny.ec
+    * tinylink.run
+    * tinylinks.net
+    * tl.tc
+    * tmearn.com
+    * tny.ec
+    * tocdo.in
+    * tokenfly.pw
+    * tomient.com
+    * topurl.net
+    * tpx.me
+    * tr.link
+    * tradeguru.xyz
+    * trlink.in
+    * tui.click
+    * twik.pw
+    * u2s.io
+    * uii.io
+    * uiz.io
+    * ujv.me
+    * ulshare.net
+    * updatetribun.org
+    * uptoos.com
+    * urlcloud.us
+    * urle.co
+    * urlsamo.com
+    * urltips.com
+    * utimetableresult.in
+    * veblink.com
+    * vinaurl.net
+    * viralnow.xyz
+    * viralukk.com
+    * vivads.net
+    * vnurl.net
+    * vnurl.xyz
+    * weefy.me
+    * wi.cr
+    * wicr.me
+    * win4cut.com
+    * wishes2.com
+    * wolink.in
+    * worldhack.net
+    * wrap-w0rld.com
+    * xemlink.net
+    * xpickle.club
+    * yasinews.xyz
+    * yesmoviesapp.info
+    * yourtechguider.com
+    * yourw-ay.com
+    * z2i.com
+    * za.gl
+    * zeiz.me
+    * zi.ht
+    * zlshorte.net
+    * zutrox.link
+* gsurl.me
+    * g5u.pw
+    * getsl.me
+    * glinks.me
+    * gsul.me
+    * gsur.in
+    * gsurl.in
+    * gsurl.me
+    * gurl.ly
+* 10co.biz
+    * 10co.biz
+    * 10co.co
+    * 10co.me
+    * 10co.xyz
+* openload.co
+    * oladblock.me
+    * oladblock.services
+    * oladblock.xyz
+    * oload.cc
+    * oload.cloud
+    * oload.club
+    * oload.download
+    * oload.fun
+    * oload.info
+    * oload.life
+    * oload.live
+    * oload.network
+    * oload.services
+    * oload.site
+    * oload.space
+    * oload.stream
+    * oload.tv
+    * oload.win
+    * openload.co
+    * openload.pw
+* al.ly
+    * al.ly
+    * ally.sh
+    * ally.shortens.co
+    * dausel.co
+    * onle.co
+* allkeyshop.com
+    * allkeyshop.com
+    * cshort.org
+* imgvip.net
+    * imagespicy.site
+    * imgfile.net
+    * imgsee.net
+    * imgsky.net
+* pics-money.ru
+    * p0xpicmoney.ru
+    * picker-click.ru
+    * pics-money.ru
+* short.am
+    * short.am
+    * srt.am
+* ur.ly
+    * ur.ly
+    * urly.mobi
+* prntscr.com
+    * prnt.sc
+    * prntscr.com
+* probusinesshub.com
+    * entretendonaweb.ga
+    * mutharammss.xyz
+    * ourtechnoew.xyz
+    * probusinesshub.com
+    * starvate.in
+    * technodia.xyz
+    * thanda.xyz
+    * thinana.xyz
+    * trackywe.in
+    * viralcollect.info
+* linkshrink.net
+    * dwindly.io
+    * linkshrink.net
+    * lnkshrnk.net
+* kurogaze.net
+    * kurogaze.net
+    * s.yukisubs.com
+* mylink.zone
+    * mylink.zone
+    * onepiece-ex.com.br
+* fiuxy.co
+    * fiuxy.co
+    * fiuxy.bz
 * else
     * 01.nl
     * 1be.biz
     * 1dl.biz
+    * 1ink.cc
+    * 1ink.info
     * 1pics.ru
     * 1tiny.net
-    * 2ty.cc
-    * 3ra.be
     * 4fun.tw
-    * a.pomf.se
     * ad2links.com
     * ad4.fr
-    * adfe.es
     * adfoc.us
-    * adjet.biz
-    * adlock.org
     * adlot.us
     * admy.link
     * ah-informatique.com
     * ah.pe
     * aka.gr
-    * akoam.com
-    * al.ly
-    * allkeyshop.com
-    * anafile.com
-    * anonymbucks.com
-    * arab.sh
-    * avenuexxx.com
+    * akoam.net
     * bayimg.com
     * beeimg.com
     * biglistofwebsites.com
     * bild.me
-    * bilder-space.de
     * bilder-upload.eu
     * bildr.no
     * binbox.io
-    * blackcatpix.com
-    * boxcash.net
+    * blameless.work
+    * blog.langw.web.id
     * casimages.com
-    * cf.ly
+    * catcut.net
     * cli.gs
-    * clictune.com
     * clk.im
     * cocoleech.com
     * coinlink.co
-    * comicon.com.br
     * comyonet.com
     * coolrom.com
-    * crd.ht
     * cubeupload.com
-    * cvc.la
-    * dapat.in
-    * dd.ma
-    * dereferer.website
-    * dewaurl.com
-    * dikit.in
+    * dailyimages.xyz
+    * dawnstation.com
+    * depic.me
     * directupload.net
     * dl-protect.com
-    * dmus.in
     * durl.me
-    * ehdwallpapers.org
-    * elde.me
+    * elil.cc
+    * elsfile.org
     * embedupload.com
+    * ewa.ac
+    * filemedia.net
     * filoops.info
-    * fit.sh
-    * fiuxy.net.js
-    * forbes.com
+    * flylink.io
+    * fopkodiak.site
     * fotolink.su
     * fotosik.pl
-    * free-tv-video-online.info
     * freeimgup.com
-    * fundurl.com
     * funkyimg.com
+    * gamemod.pro
     * gkurl.us
-    * go2.me
     * goimagehost.com
     * goto.loncat.in
-    * hentaimg.com
+    * gsmzone.site
+    * gunting.web.id
+    * healthykk.com
     * hostingpics.net
     * hotshorturl.com
-    * ichan.org
     * ifotos.pl
-    * igg-games.com
-    * ilix.in
+    * iiv.pl
     * ima.so
     * imadul.com
-    * image18.org
     * image2you.ru
-    * imagearn.com
     * imagebam.com
     * imageban.net
     * imageban.ru
     * imagehousing.com
     * imagenetz.de
     * imageno.com
-    * imagepix.org
     * imageshack.us
     * imageshost.ru
     * imageupper.com
-    * imagevau.eu
     * imagezilla.net
-    * imagik.fr
     * img.3ezy.net
-    * img.deli.sh
     * img1.imagilive.com
-    * img24.org
-    * img3x.net
+    * imgazure.com
     * imgbar.net
-    * imgbin.me
     * imgbox.com
     * imgcarry.com
     * imgdollar.com
-    * imgtheif.com
+    * imgmass.com
     * imgvault.pw
-    * iori.us
+    * insurance-waifu.cf
     * ipic.su
     * itw.me
     * ity.im
-    * javcity.com
-    * javelite.tk
+    * javlibrary.com
+    * javtor.com
     * jheberg.net
+    * k2nblog.com
     * keptarolo.hu
     * kingofshrink.com
-    * kurogaze.net
-    * larashare.com
-    * leechbd.tk
-    * leechpremium.space
+    * layarkaca21.vip
+    * leechpremium.link
     * lienscash.com
-    * link-protector.com
     * link.im
-    * link2dollar.com
-    * link2you.ru
-    * link5s.com
-    * linkarus.com
+    * link.tl
+    * link4ad.com
     * linkdecode.com
-    * linkdrop.net
-    * linkpaid.net
     * linkplugapp.com
     * linksas.us
-    * linkshrink.net
-    * lix.in
-    * lnk.in
+    * linksupto.com
+    * linktor.io
     * lolinez.com
-    * loook.ga
     * lostpic.net
-    * lovechix.com
-    * madlink.sk
-    * maxmirror.com
     * mije.net
+    * mirrorace.com
     * mirrorcreator.com
-    * mirrorupload.net
+    * mirrored.to
+    * mirrorfilehost.com
     * moesubs.com
     * mrjh.org
-    * mt0.org
+    * multifilemirror.com
     * my-link.pro
     * mylinkgen.com
+    * namiyt.com
     * nmac.to
     * noelshack.com
     * nsfw.in
     * nutshellurl.com
-    * ohleech.com
     * oni.vn
-    * openload.co
-    * oxyl.me
+    * overdream.cz
     * p.pw
     * pasted.co
+    * pdi2.net
     * pic-money.ru
     * pic-upload.de
     * piccash.net
-    * picmoe.net
+    * picclock.ru
     * picnictrans.com
-    * pics-money.ru
+    * picpic.online
     * picshare.geenza.com
     * picstream.tv
     * pimpandhost.com
-    * pixhost.org
-    * pixhub.eu
+    * pixhost.to
     * pixroute.com
-    * pixsense.net
-    * pornimagex.com
-    * postimg.org
+    * pixxxels.cc
+    * postimg.cc
     * preview.rlu.ru
-    * prntscr.com
     * pronpic.org
-    * reffbux.com
+    * pucuk.xyz
+    * putlocker.com
+    * qrrro.com
+    * radikal.ru
+    * realsht.mobi
     * richlink.com
-    * rijaliti.info
-    * riurl.com
-    * robo.us
     * ron.vn
     * sa.ae
     * safeurl.eu
     * screenlist.ru
-    * setlinks.us
-    * short.am
-    * shortskip.com
-    * shorturl.rapeit.net
+    * shaggyimg.pro
+    * shortid.co
+    * shrink-service.it
     * sht.io
+    * shtlink.co
+    * shtme.co
     * similarsites.com
-    * smll.io
+    * slink.bid
     * spaste.com
-    * srnk.co
-    * stash-coins.com
-    * streamingfrench.net
+    * st.wardhanime.net
+    * sub2unlock.com
     * subirimagenes.com
     * supercheats.com
+    * swzz.xyz
+    * techfunda.net
     * thinfi.com
     * tinyarrows.com
     * tinypic.com
+    * tribuntekno.com
     * turboimagehost.com
-    * typ.me
+    * turkdown.com
+    * ujv.al
     * ulmt.in
-    * ultshare.com
     * unfake.it
-    * uplimg.com
+    * uplinkto.me
     * upmirror.info
+    * url.fm
     * url.ie
     * urlgator.com
     * urlinn.com
     * urlms.com
     * urlv2.com
     * uskip.me
-    * victly.com
+    * ux9.de
+    * vavi.co
     * vidto.me
     * viidii.info
     * vir.al
-    * vvcap.net
-    * wzzq.me
-    * x.pixfarm.net
-    * xlink.me
+    * vzturl.com
+    * wikiall.org
+    * won.pe
+    * xaoutchouc.live
+    * xxx.fopkodiak.site
     * yep.it
-    * yfrog.com
     * yooclick.com
-    * ysf.pl
-    * zo.mu
-    * zzz.gl

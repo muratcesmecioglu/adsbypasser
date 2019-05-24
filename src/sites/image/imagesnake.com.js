@@ -1,33 +1,24 @@
 (function () {
-  'use strict';
 
-  function run () {
-    var i = $('#img_obj');
-    $.openImage(i.src, {
-      referer: true,
-    });
-  }
-
-  function run2 () {
-    var i = $('#img_obj');
-    $.openImage(i.src, {
-      replace: true,
-    });
-  }
-
-  $.register({
+  _.register({
     rule: [
       {
-        host: /^www\.(freebunker|imagesnake|imgcarry|imgshots)\.com$/,
+        host: [
+          /^www\.(freebunker|imgcarry|imgshots)\.com$/,
+          /^www\.imagesnake\.(com|org)$/,
+        ],
         path: /^\/show\.php$/,
         query: /^\?/,
       },
       {
-        host: /^www\.freebunker\.com$/,
+        host: /^www\.(freebunker|imgshots)\.com$/,
         path: /^\/show\//,
       },
       {
-        host: /^www\.(imagesnake|imagefruit)\.com$/,
+        host: [
+          /^www\.imagesnake\.(com|org)$/,
+          /^www\.imagefruit\.com$/,
+        ],
         path: /^\/(img|show)\/.+/,
       },
       {
@@ -36,14 +27,14 @@
       },
       'http://fotoo.pl/show.php?img=*.html',
       {
-        host: /^www\.(fotoszok\.pl|imagestime)\.com$/,
+        host: /^www\.imagestime\.com$/,
         path: /^\/show\.php\/.*\.html$/,
       },
     ],
     ready: run,
   });
 
-  $.register({
+  _.register({
     rule: {
       host: /^www\.imgcarry\.com$/,
       path: /^\/show\//,
@@ -51,8 +42,18 @@
     ready: run2,
   });
 
-})();
+  async function run () {
+    const i = $('#img_obj');
+    await $.openImage(i.src, {
+      referer: true,
+    });
+  }
 
-// ex: ts=2 sts=2 sw=2 et
-// sublime: tab_size 2; translate_tabs_to_spaces true; detect_indentation false; use_tab_stops true;
-// kate: space-indent on; indent-width 2;
+  async function run2 () {
+    const i = $('#img_obj');
+    await $.openImage(i.src, {
+      replace: true,
+    });
+  }
+
+})();

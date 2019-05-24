@@ -1,46 +1,74 @@
-$.register({
-  rule: {
-    host: [
-      /^(www\.)?adb\.ug$/,
-      /^(www\.)?lynk\.my$/,
-      /^adyou\.me$/,
-    ],
-    // Match everything but empty, privacy, terms, contact, contact/whatever or path beginning with #
-    path: /^(?!\/(?:privacy|terms|contact(\/.*)?|#.*)?$).*$/
-  },
-  ready: function () {
-    'use strict';
+(function () {
 
-    $.removeNodes('iframe');
+  _.register({
+    rule: {
+      host: [
+        /^(www\.)?adb\.ug$/,
+        /^(www\.)?lynk\.my$/,
+        /^(www\.)?adyou\.(co|me)$/,
+      ],
+      // Match everything but empty, privacy, terms, contact, contact/whatever or path beginning with #
+      path: /^(?!\/(?:privacy|terms|contact(\/.*)?|#.*)?$).*$/,
+    },
+    async ready () {
+      $.remove('iframe');
 
-    // pattern 1
-    var m = $.searchScripts(/top\.location\.href="([^"]+)"/);
-    if (m) {
-      $.openLink(m[1]);
-      return;
-    }
+      // pattern 1
+      const m = $.searchFromScripts(/top\.location\.href="([^"]+)"/);
+      if (m) {
+        await $.openLink(m[1]);
+        return;
+      }
 
-    // pattern 2
-    m = $.searchScripts(/\{_args.+\}/);
-    if (!m) {
-      throw new _.AdsBypasserError('script content changed');
-    }
-    m = eval('(' + m[0] + ')');
-    var url = window.location.pathname + '/skip_timer';
+      // pattern 2
+      const args = await getArguments();
+      tryLink(args);
+    },
+  });
 
-    var i = setInterval(function () {
-      $.post(url, m).then(function (text) {
-        var jj = _.parseJSON(text);
+  function getArguments () {
+    const PATTERN = /\{\s*_args[^}]+\}[^}]+\}/;
+
+    return new Promise((resolve) => {
+      const m = $.searchFromScripts(PATTERN);
+      if (m) {
+        resolve(m);
+        return;
+      }
+      const observer = new MutationObserver((mutations) => {
+        mutations.forEach((mutation) => {
+          mutation.addedNodes.forEach((node) => {
+            if (node.localName === 'script') {
+              const m = node.textContent.match(PATTERN);
+              if (m) {
+                observer.disconnect();
+                resolve(m);
+              }
+            }
+          });
+        });
+      });
+      observer.observe(document.body, {
+        childList: true,
+      });
+    }).then((m) => {
+      return _.evil(`(${m[0]})`);
+    });
+  }
+
+  function tryLink (args) {
+    const url = window.location.pathname + '/skip_timer';
+
+    // XXX uncatched promise
+    const i = setInterval(() => {
+      $.post(url, args).then((text) => {
+        const jj = JSON.parse(text);
         if (!jj.errors && jj.messages) {
           clearInterval(i);
           $.openLink(jj.messages.url);
         }
       });
     }, 1000);
-  },
-});
+  }
 
-
-// ex: ts=2 sts=2 sw=2 et
-// sublime: tab_size 2; translate_tabs_to_spaces true; detect_indentation false; use_tab_stops true;
-// kate: space-indent on; indent-width 2;
+})();

@@ -1,4 +1,4 @@
-$.register({
+_.register({
   rule: {
     host: /^(www\.)?shorti\.ga$/,
     path: [
@@ -6,13 +6,11 @@ $.register({
       /^\/url_redirector\.html$/,
     ],
   },
-  ready: function () {
-    'use strict';
+  async ready () {
+    const f = $.$$('frame');
 
-    var f = $.$$('frame');
-    
     // Find the right frame
-    var fl = f.find(function(value, key, self) {
+    const [, v,] = _.find(f, (value) => {
       if (value.getAttribute('class')) {
         return _.none;
       }
@@ -21,10 +19,6 @@ $.register({
       return 'Target frame found';
     });
 
-    $.openLink(fl.value.src);
+    await $.openLink(v.src);
   },
 });
-
-// ex: ts=2 sts=2 sw=2 et
-// sublime: tab_size 2; translate_tabs_to_spaces true; detect_indentation false; use_tab_stops true;
-// kate: space-indent on; indent-width 2;

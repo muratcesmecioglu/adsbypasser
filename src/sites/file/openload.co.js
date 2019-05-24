@@ -1,55 +1,55 @@
-$.register({
+_.register({
   rule: {
-    host: /^openload\.co$/,
+    host: [
+      /^openload\.(co|pw)$/,
+      /^openloed\.(co)$/,
+      /^oload\.(stream|info|site|tv|win|download|cloud|cc|fun|club|live|space|services|network|life)$/,
+      /^oladblock\.(services|xyz|me)$/,
+    ],
     path: /^\/f\/.*/,
   },
-  start: function (m) {
+  async start () {
     $.window.adblock = false;
     $.window.adblock2 = false;
     $.window.popAdsLoaded = true;
   },
-  ready: function () {
-    'use strict';
-    
-    setTimeout(function () {
-      var timer = $('#downloadTimer');
-      timer.style.display = 'none';
+  async ready () {
+    await _.wait(500);
 
-      var dlCtn = $('#realdl');
-      dlCtn.style.display = 'inline-block';
+    const timer = $('#downloadTimer');
+    timer.style.display = 'none';
 
-      var dlBtn = $('a', dlCtn);
-      var ePath = $('#streamurl');
-      dlBtn.href = "/stream/" + ePath.textContent;
+    const dlCtn = $('#realdl');
+    dlCtn.style.display = 'inline-block';
 
-      var videoCtn = $.$('.videocontainer');
+    const dlBtn = $('a', dlCtn);
+    const ePath = $('#DtsBlkVFQx');
+    dlBtn.href = '/stream/' + ePath.textContent;
 
-      if (videoCtn) {
-        var overlay = $('#videooverlay', videoCtn);
-        overlay.click();
+    const videoCtn = $.$('.videocontainer');
 
-        // use iframe instead of $.openLink
-        // in order to not affect streaming
-        dlBtn.addEventListener('click', function (evt) {
-          evt.preventDefault();
+    if (videoCtn) {
+      const overlay = $('#videooverlay', videoCtn);
+      overlay.click();
 
-          // TODO *iframe* hack is not normal
-          // please generalize in the future
-          var iframe = document.createElement('iframe');
-          iframe.src = dlBtn.href;
-          document.body.appendChild(iframe);
-        });
+      // use iframe instead of $.openLink
+      // in order to not affect streaming
+      dlBtn.addEventListener('click', (evt) => {
+        evt.preventDefault();
 
-        _.info(_.T('{0} -> {1}')(window.location, dlBtn.href));
+        // TODO *iframe* hack is not normal
+        // please generalize in the future
+        const iframe = document.createElement('iframe');
+        iframe.src = dlBtn.href;
+        iframe.style.display = 'none';
+        document.body.appendChild(iframe);
+      });
 
-        dlBtn.click();
-      } else {
-        $.openLink(dlBtn.href);
-      }
-    }, 500);
+      _.info(`${window.location} -> ${dlBtn.href}`);
+
+      dlBtn.click();
+    } else {
+      await $.openLink(dlBtn.href);
+    }
   }
 });
-
-// ex: ts=2 sts=2 sw=2 et
-// sublime: tab_size 2; translate_tabs_to_spaces true; detect_indentation false; use_tab_stops true;
-// kate: space-indent on; indent-width 2;

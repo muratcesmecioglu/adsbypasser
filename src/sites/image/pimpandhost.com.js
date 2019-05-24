@@ -1,23 +1,21 @@
-$.register({
+_.register({
   rule: {
     host: /^(www\.)?pimpandhost\.com$/,
-    path: /^\/image\//,
+    path: /^\/image\/\d+/,
+    query: /^\?size=original/,
   },
-  ready: function () {
-    'use strict';
-
-    // Retrieve the normal-sized image
-    var a = $('#image_original');
-
-    // Grab its URL
-    var el = document.createElement('div');
-    el.innerHTML = a.value;
-    var img = $('img', el);
-
-    $.openImage(img.src);
+  async ready () {
+    const img = $('#overflow-wrapper img.original');
+    await $.openImage(img.src);
   },
 });
 
-// ex: ts=2 sts=2 sw=2 et
-// sublime: tab_size 2; translate_tabs_to_spaces true; detect_indentation false; use_tab_stops true;
-// kate: space-indent on; indent-width 2;
+_.register({
+  rule: {
+    host: /^(www\.)?pimpandhost\.com$/,
+    path: /^\/image\/\d+/,
+  },
+  async start (m) {
+    await $.openLink(m.path + '?size=original');
+  },
+});

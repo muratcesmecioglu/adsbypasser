@@ -1,22 +1,36 @@
-$.register({
+_.register({
   rule: {
     host: /^www\.spaste\.com$/,
     path: /^\/go\/\w+$/,
   },
-  ready: function () {
-    'use strict';
-
-    var id = $.searchScripts(/\{id:'(\d+)'\}/);
-    _.wait(3000).then(function () {
-      return $.post('/site/getRedirectLink', {
-        id: id,
-      }).then(function (url) {
-        $.openLink(url);
-      });
+  async ready () {
+    const id = $.searchFromScripts(/\{id:'(\d+)'\}/);
+    await _.wait(3000);
+    const url = await $.post('/site/getRedirectLink', {
+      id: id[1],
     });
+    await $.openLink(url);
   },
 });
 
-// ex: ts=2 sts=2 sw=2 et
-// sublime: tab_size 2; translate_tabs_to_spaces true; detect_indentation false; use_tab_stops true;
-// kate: space-indent on; indent-width 2;
+
+_.register({
+  rule: {
+    host: /^www\.spaste\.com$/,
+    path: /^\/(s|site)\/\w+$/,
+  },
+  async ready () {
+    const captcha = $('#globalCaptchaConfirm');
+    captcha.click();
+    // need to wait for animation
+    await _.wait(1000);
+
+    for (let i = 0; i < 3; ++i) {
+      const word = $('#currentCapQue').textContent;
+      await _.wait(100);
+      $(`[data-id='${word}']`).click();
+    }
+
+    $('#template-contactform-submit').click();
+  },
+});

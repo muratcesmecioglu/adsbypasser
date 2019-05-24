@@ -1,28 +1,24 @@
-$.register({
+_.register({
   rule: {
     host: /^link\.tl$/,
-    path: /^\/fly\/go\.php$/,
+    path: /\//,
   },
-  ready: function () {
-    'use strict';
+  async ready () {
+    let m = $.searchFromScripts(/eval\((.+}\))\)/);
+    m = _.evil(`(${m[1]})`);
+    let l = m.match(/(?:\$\.ajax.+|href=')(http.+skip.+|http[^']+)',data/);
+    l = l[1];
+    if (!l.match(/skip/)) {
+      await $.openLink(l);
+      return;
+    }
 
-    var a = $('.skip_btn2 a');
-    $.openLink(a.href);
+    const token = m.match(/'X-CSRF-TOKEN':'([^']+)'},/);
+    let rl = await $.post(l, '', {
+      'X-CSRF-TOKEN': token[1],
+    });
+    rl = JSON.parse(rl);
+
+    await $.openLink(rl.url);
   },
 });
-
-$.register({
-  rule: {
-    host: /^link\.tl$/,
-    path: /^\/(.+)$/,
-  },
-  start: function (m) {
-    'use strict';
-
-    $.openLink('/fly/go.php?to=' + m.path[1]);
-  },
-});
-
-// ex: ts=2 sts=2 sw=2 et
-// sublime: tab_size 2; translate_tabs_to_spaces true; detect_indentation false; use_tab_stops true;
-// kate: space-indent on; indent-width 2;

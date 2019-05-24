@@ -1,54 +1,23 @@
 (function () {
-  'use strict';
 
-  function hostMapper (host) {
-    switch (host) {
-    case 'disingkat.in':
-      return function () {
-        var a = $('a.btn-block.redirect');
-        return a.href;
-      };
-    case 'link.animagz.org':
-      return function () {
-        var a = $('a.redirect');
-        a = a.onclick.toString();
-        a = a.match(/window\.open \('([^']+)'\)/);
-        return a[1];
-      };
-    case 'coeg.in':
-      return function () {
-        var a = $('.download-link a');
-        return a.href;
-      };
-    case 'gunting.in':
-      return function () {
-        var a = $('div.col-sm-6:nth-child(1) > center:nth-child(1) > a:nth-child(1)');
-        return a.href;
-      };
-    default:
-      return null;
-    }
-  }
-
-  $.register({
+  _.register({
     rule: {
       host: [
-        /^link\.animagz\.org$/,
-        /^coeg\.in$/,
-        /^disingkat\.in$/,
-        /^gunting\.in$/,
+        /^(coeg|disingkat)\.in$/,
+        /^www\.(telondasmu|siotong|siherp)\.com$/,
+        /^www\.greget\.space$/,
       ],
-      path: /^\/\w+$/,
+      path: /^\/.+$/,
     },
-    ready: function (m) {
-      var mapper = hostMapper(m.host[0]);
-      var b64 = mapper().match(/\?r=(\w+={0,2}?)/);
+    async ready (m) {
+      const mapper = hostMapper(m.host[0]);
+      const b64 = mapper().match(/\?r=([\w/]+={0,2})/);
 
-      $.openLink(atob(b64[1]));
+      await $.openLink(atob(b64[1]));
     },
   });
 
-  $.register({
+  _.register({
     rule: {
       host: /^sipkur\.net$/,
       path: [
@@ -56,17 +25,34 @@
         /^\/menujulink\//,
       ],
     },
-    ready: function () {
-      var d = $('#testapk > div');
+    async ready () {
+      let d = $('#testapk > div');
       d = d.onclick.toString();
       d = d.match(/window\.open\('([^']+)'/);
 
-      $.openLink(d[1]);
+      await $.openLink(d[1]);
     },
   });
 
-})();
+  function hostMapper (host) {
+    switch (host) {
+    case 'disingkat.in':
+      return () => {
+        const a = $('a.btn-block.redirect');
+        return a.href;
+      };
+    case 'coeg.in':
+    case 'www.telondasmu.com':
+    case 'www.siotong.com':
+    case 'www.siherp.com':
+    case 'www.greget.space':
+      return () => {
+        const a = $('.download-link a');
+        return a.href;
+      };
+    default:
+      return null;
+    }
+  }
 
-// ex: ts=2 sts=2 sw=2 et
-// sublime: tab_size 2; translate_tabs_to_spaces true; detect_indentation false; use_tab_stops true;
-// kate: space-indent on; indent-width 2;
+})();

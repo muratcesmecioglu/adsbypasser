@@ -1,21 +1,29 @@
-$.register({
+_.register({
   rule: {
-    host: /^al\.ly$/,
+    host: [
+      /^al\.ly$/,
+      /^ally\.sh$/,
+      /^ally\.shortens\.co$/,
+      /^(dausel|onle)\.co$/,
+    ],
   },
-  ready: function () {
-    'use strict';
+  async ready () {
+    let i = $.$('#html_element');
+    if (i) {
+      // first stage, show recaptcha immediately
+      $.remove('#messa');
+      i.classList.remove('hidden');
+      return;
+    }
 
-    $.removeNodes('iframe, #CashSlideDiv, #ct_catfish');
+    // second stage
+    i = $.searchFromScripts(/"href","([^"]+)" \+ hash\)\.remove/);
+    if (!i) {
+      _.warn('site changed');
+      return;
+    }
+    i = i[1] + location.hash;
 
-    var a = $('#modal-shadow');
-    a.style.display = 'block';
-    a = $('#modal-alert');
-    a.style.left = 0;
-    a.style.top = 80;
-    a.style.display = 'block';
+    $.openLink(i);
   },
 });
-
-// ex: ts=2 sts=2 sw=2 et
-// sublime: tab_size 2; translate_tabs_to_spaces true; detect_indentation false; use_tab_stops true;
-// kate: space-indent on; indent-width 2;

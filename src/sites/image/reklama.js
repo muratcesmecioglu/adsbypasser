@@ -1,187 +1,97 @@
 (function () {
-  'use strict';
 
-  function action (firstSelector, secondSelector) {
-    $.removeNodes('iframe, #adblock_detect, .popupOverlay');
+  const defaultAction = _.partial(action, '#continuetoimage > form input', 'img[class^=centred]');
 
-    var node = $.$(firstSelector);
-    if (node) {
-      // first pass
-      _.wait(500).then(function () {
-        node.removeAttribute('disabled');
-        return _.wait(500);
-      }).then(function () {
-        // HACK some sites can not receive the click event without focus
-        node.focus();
-        // HACK some sites needs to click multiple times
-        node.click();
-        node.click();
-        node.click();
-      });
-      return;
-    }
-
-    // second pass
-    var i = $(secondSelector);
-    $.openImage(i.src);
-  }
-
-  var defaultAction = _.P(action, '#continuetoimage > form input', 'img[class^=centred]');
-
-  $.register({
+  _.register({
     rule: [
       {
         host: [
           // com
-          // starts with image
-          /^image(ontime|corn|picsa|horse)\.com$/,
-          // ends with image
-          /^(zonezeed|zelje|croft|myhot|bok|hostur|greasy)image\.com$/,
-          // starts with img
-          /^img(icy|next|savvy|\.spicyzilla|twyti|xyz|devil|tzar|ban|pu|beer|wet|tornado|kicks|-pay|nimz|binbou|2share|22|cover|hit|main|trial|blank|-uploads|reputa)\.com$/,
-          // starts with img-
-          /^img-(zone|planet)\.com$/,
-          // starts with www
-          /^www\.img(blow|lemon|4sharing)\.com$/,
-          /^www\.imagefolks\.com$/,
-          // starts with xxx
-          /^xxx(imagenow|screens)\.com$/,
-          // else
-          /^(playimg|picstwist|ericsony|wpc8|uplimg|lexiit|thumbnailus|newimagepost|fapingpics|dimtus|tinizo)\.com$/,
-          /^((i|hentai)\.)?imgslip\.com$/,
+          /^(imagecorn|imagedecode|imageko|imageshtorm)\.com$/,
+          /^(hosturimage|greasyimage|damimage)\.com$/,
+          /^(imgicy|imgsavvy|imgtzar|imgtornado|imgkicks|img2share|imghit|imgmain)\.com$/,
+          /^(imgtrial|imgreputa|imgfapper|imgpart|imgbalana|imgjazz)\.com$/,
+          /^(i\.)?imgseeds?\.com$/,
+          /^(img-planet|img-pay)\.com$/,
+          /^(www\.)?(imglemon|imageblinks)\.com$/,
+          /^(www\.)?(multiimg)\.com$/,
+          /^xxxscreens\.com$/,
+          /^(wpc8|dimtus|tinizo|erimge|nimzshare|hdmoza)\.com$/,
           /^(i|xxx)\.hentaiyoutube\.com$/,
-          /^(go|er)imge\.com$/,
-          /^(like\.)?08lkk\.com$/,
-          /^(www\.)?\.imgult\.com$/,
-          /^nim(plus|zshare)\.com$/,
-          /^nudeximg\.com$/,
-          /imgseeds?\.com$/,
-          /xxxsparrow?\.com$/,
-          /damimage\.com$/,
-          /imagedecode\.com$/,
-          /^www\.freephotohostin\.com$/,
-          // net
-          /^img(serve|coin|fap|candy|master|-view|run|boom|project|python|pics)\.net$/,
-          /^(imagesouls|naughtygate|gallerycloud|imagelaser|picture-bang|project-photo|pix-link|funimg|golfpit|xximg)\.net$/,
           // org
-          /^(shot|adult)img\.org$/,
-          /^img(studio|spot)\.org$/,
-          /^image(\.adlock|on|team)\.org$/,
-          /^(voyeur|drag|teen|mega)image\.org$/,
-          /^teenshot\.org$/,
+          /^(xxxwebdlxxx|teenshot)\.org$/,
+          /^(imageon|imageteam)\.org$/,
+          /^(voyeurimage|teenimage|megaimage)\.org$/,
+          /^(imgstudio|imgspot)\.org$/,
+          // net
+          /^(imgserve|imgproject|imgpython|imgpix)\.net$/,
+          /^img-view\.net$/,
+          /^(naughtygate|gallerycloud)\.net$/,
+          /^(funimg|xximg)\.net$/,
+          // eu
+          /^hotimages\.eu$/,
+          /(^|\.)55888\.eu$/,
+          // site
+          /^picz\.site$/,
+          /^pic\.hotimg\.site$/,
           // else
-          /^(hotimages|55888)\.eu$/,
-          /^img(cloud|mag)\.co$/,
-          /^pixup\.us$/,
-          /^(bulkimg|photo-up|myimg|pop-img|img-pop|ads-img)\.info$/,
-          /^img\.yt$/,
-          /^vava\.in$/,
-          /^(pixxx|picspornfree|imgload|fapat)\.me$/,
-          /^(domaink|pic2pic|porno-pirat|24avarii|loftlm|18pron|imgplus)\.ru$/,
           /^www\.hotimage\.uk$/,
-          /^imgease\.re$/,
-          /^goimg\.xyz$/,
-          /^pic2pic\.site$/,
+          /^imgcloud\.co$/,
+          /^pixup\.us$/,
+          /^(pop-img|ads-img)\.info$/,
+          /^(domaink|porno-pirat)\.ru$/,
+          /^xxx\.pornscreen\.xyz$/,
           /^darpix\.ga$/,
-          /^sxpics\.nl$/,
-          /^darpix\.desi$/,
-          /^pic4you\.top$/,
-          /^imgsen\.se$/,
-          /^ipicture\.su$/
+          /^ipicture\.su$/,
+          /^acidimg\.cc$/,
+          /^s\.imghost\.top$/,
+          /^xxx\.sexex\.xyz$/,
+          /^imagespublic\.tk$/,
+          /^ecoimages\.xyz$/,
         ],
-        path: /^\/img-.*\.html/,
+        path: /\/img-.*\.html/,
       },
       {
         host: [
-          /^img(run|twyti)\.net$/,
-          /^imgtwyti\.com$/,
-          /^hentai-(pop|baka)\.com$/,
-          /^(jav|img)-hentai\.host$/,
-          /^hentai-king\.host$/,
-          /^img-king\.xyz$/,
+          /^hentai-pop\.com$/,
+          /^star-hentai\.com$/,
         ],
         path: /^\/[ti]\/img-.*\.html/,
       },
       {
         host: /^imgking\.co$/,
-        path: /^\/img-.*\.html/,
+        path: /^\/img4?-.*\.html/,
       },
       {
-        host: /^imgbb\.net$/,
-        path: /^\/.-.+$/,
+        host: /^ima\.gy$/,
+        path: /^\/i\/.+$/,
       },
       {
-        host: /^cdn\.javtotal\.com$/,
-        path: /^\/img\/.+$/,
-      },
-      {
-        host: /^imgtor\.pw$/,
-        path: /^\/img2\/.+$/,
+        host: /^picmoza\.com$/,
+        path: /^\/\/?img-.*\.html$/,
       },
     ],
     ready: defaultAction,
   });
 
-  $.register({
-    rule: {
-        host: /^imgtor\.pw$/,
-        path: /^\/img\/.*$/,
-    },
-    start: function (m) {
-      var imageUrl = 'http://' + m.host[0] + m.path[0].replace("img","img2");
-      $.openLink(imageUrl);
-    },
-  });
-
-  $.register({
+  _.register({
     rule: {
       host: /^imgrat\.com$/,
       path: /^\/img-.*\.html/,
     },
-    ready: _.P(action, '#close', '#main_image img.center-block.img-responsive'),
-  });
-
-  $.register({
-    rule: {
-      host: [
-        /^imageporn\.eu$/,
-        /^imgzizi\.xyz$/,
-      ],
-      path: /^\/img-.*\.html/,
-    },
-    start: function () {
-      // HACK break script injection
-      $.window.document.createElement = null;
-    },
-    ready: defaultAction,
+    ready: _.partial(action, '#close', '#main_image img.center-block.img-responsive'),
   });
 
   // TODO need to refactor the cookie rule
-  $.register({
+  _.register({
     rule: {
-      host: [
-        /^www\.img(taxi|adult|wallet)\.com$/,
-        /^www\.imgdrive\.net$/,
-      ],
+      host: /^(www\.)?imgfresh\.info$/,
       path: /^\/img-.*\.html$/,
     },
-    start: function () {
-      var c = $.getCookie('img_c_d') || $.getCookie('img_p_d');
-      if (c) {
-        return;
-      }
-      $.post(window.location.href.toString(), {
-        cti: 1,
-        ref: '',
-        rc: 1,
-      }).then(function (data) {
-        window.location.reload();
-      });
-    },
-    ready: function () {
-      $.removeNodes('iframe');
+    async ready () {
+      $.remove('iframe');
 
-      var node = $.$('#continuetoimage > form input');
+      let node = $.$('#continuetoimage > form input');
       if (node) {
         // first pass
         node.click();
@@ -195,57 +105,30 @@
       $.resetCookies();
 
       // second pass
-      var i = $('img[class^=centred]');
-      $.openImage(i.src);
-    },
-  });
+      node = $.$('img[class^=centred]');
+      if (node) {
+        await $.openImage(node.src);
+        return;
+      }
 
-  function helper () {
-    // crack the shitty qqc.co visitScript 5440
-    $.window.setTimeout = _.nop;
-
-    // this site checks cookie that caculate from session
-    // do an AJAX to skip checking
-    return $.get(window.location.toString()).then(function (data) {
-      return $.toDOM(data);
-    });
-  }
-
-  $.register({
-    rule: {
-      host: /^08lkk\.com$/,
-      path: /^\/Photo\/img-.+\.html$/,
-    },
-    start: function () {
-      helper().then(function (page) {
-        var i = $('img[class^=centred]', page);
-        $.openImage(i.src);
+      // simulate session
+      await $.post(window.location.href.toString(), {
+        cti: 1,
+        ref: '',
+        rc: 1,
+        rp: 1,
+        bt: 0,
+        bw: 'edge',
       });
+      window.location.reload();
     },
   });
 
-  $.register({
-    rule: {
-      host: /^08lkk\.com$/,
-      path: /^\/\d+\/img-.*\.html$/,
-    },
-    start: function () {
-      helper().then(function (page) {
-        var bbcode = $.$('#imagecodes input', page);
-        bbcode = bbcode.value.match(/.+\[IMG\]([^\[]+)\[\/IMG\].+/);
-        bbcode = bbcode[1];
-        bbcode = bbcode.replace('small', 'big');
-
-        $.openImage(bbcode);
-      });
-    },
-  });
-
-  $.register({
+  _.register({
     rule: [
       {
         host: /^imgking\.co$/,
-        path: /^\/img3-.*\.html/,
+        path: /^\/imgs-.*\.html/,
       },
       {
         host: [
@@ -255,39 +138,169 @@
         path: /^\/img-.*\.html/,
       },
     ],
-    ready: function () {
-      var url = $.window.linkid;
-      $.openImage(url);
+    async ready () {
+      const url = $.window.linkid;
+      await $.openImage(url);
     },
   });
 
-  $.register({
-    rule: [
-      {
-        host: /^imgking\.co$/,
-        path: /^\/img4-.*\.html/,
-      },
-      {
-        host: /^imgkings\.com$/,
-        path: /^\/img2-.*\.html/,
-      },
-    ],
+  _.register({
+    rule: {
+      host: /^imgkings\.com$/,
+      path: /^\/img2-.*\.html/,
+    },
     ready: defaultAction,
   });
 
-  $.register({
+  _.register({
     rule: {
-      host: /^imagerar\.com$/,
-      path: /^\/img2-/
+      host: /^imgprime\.com$/,
+      path: /^\/imga-u\/(.+)\.jpeg\.html/,
     },
-    ready: function () {
-      var i = $('img[alt]');
-      $.openImage(i.src);
+    async start () {
+      const path = window.location.href.replace('/imga-u', '/u').replace('.html', '');
+      await $.openLink(path);
     },
   });
 
-})();
+  _.register({
+    rule: {
+      host: /^22pixx\.xyz$/,
+      path: /^\/ia-[io]\/(.+)\.jpeg\.html/,
+    },
+    async start () {
+      const path = window.location.href.replace('/ia-', '/').replace('.html', '');
+      await $.openLink(path);
+    },
+  });
 
-// ex: ts=2 sts=2 sw=2 et
-// sublime: tab_size 2; translate_tabs_to_spaces true; detect_indentation false; use_tab_stops true;
-// kate: space-indent on; indent-width 2;
+  _.register({
+    rule: {
+      host: /^22pixx\.xyz$/,
+      path: /^\/x-o\/(.+)\.jpeg\.html/,
+    },
+    async start () {
+      const path = window.location.href.replace('/x-', '/').replace('.html', '');
+      await $.openLink(path);
+    },
+  });
+
+  _.register({
+    rule: {
+      host: /^22pixx\.xyz$/,
+      path: /^\/x-i\/(.+)\.jpeg\.html/,
+    },
+    async start () {
+      const path = window.location.href.replace('/x', '/y');
+      await $.openLink(path);
+    },
+  });
+
+  _.register({
+    rule: [
+      {
+        host: /^imagerar\.com$/,
+        path: /^\/img2-/,
+      },
+      {
+        host: /^imgking\.co$/,
+        path: /^\/img[v3]-.*\.html/,
+      },
+      {
+        host: /^picstate\.com$/,
+        path: /^\/view\/full\/.*/,
+      },
+    ],
+    async ready () {
+      const i = $('img[alt]');
+      await $.openImage(i.src);
+    },
+  });
+
+  _.register({
+    rule: {
+      host: /^imgprime\.com$/,
+      path: /^\/img.*\.html$/,
+    },
+    async ready () {
+      let a = $.$('#continuetoimage a');
+      if (a) {
+        await $.openLink(a.href);
+        return;
+      }
+      a = $('img[alt]');
+      await $.openImage(a.src);
+    },
+  });
+
+  _.register({
+    rule: {
+      host: /^imx\.to$/,
+      path: [
+        /^\/img-.*\.html/,
+        /^\/i\/.*/,
+      ],
+    },
+    ready: _.partial(action, '#continuebutton, #continuetoimage input[type="submit"]', 'img[class^=centred]'),
+  });
+
+  _.register({
+    rule: {
+      host: [
+        /^(www\.)?imgdrive\.net$/,
+        /^(www\.)?(imgtaxi|imgwallet|imgadult)\.com$/,
+      ],
+      path: /^\/img-.*\.html$/,
+    },
+    async ready () {
+      let m = $('meta[property="og:image"]');
+      m = m.content.replace('small', 'big');
+      await $.openImage(m);
+    },
+  });
+
+  _.register({
+    rule: {
+      host: /^imagescanner\.cc$/,
+      path: /^\/.*\.jpg\.html/,
+    },
+    async start () {
+      const path = window.location.href.replace('.html', '');
+      await $.openLink(path);
+    },
+  });
+
+  _.register({
+    rule: 'https://imgcloud.pw/image/*',
+    async ready () {
+      const l = $('link[rel="image_src"]');
+      await $.openImage(l.href);
+    },
+  });
+
+  async function action (firstSelector, secondSelector) {
+    $.remove('iframe, #adblock_detect, .popupOverlay');
+
+    let node = $.$(firstSelector);
+    if (node) {
+      node = findFirstForm(node);
+      // clone the form and replace it to body to strip events
+      document.body.innerHTML = node.outerHTML;
+      node = $('form input');
+      node.click();
+      return;
+    }
+
+    // second pass
+    node = $(secondSelector);
+    await $.openImage(node.src);
+  }
+
+  function findFirstForm (child) {
+    while (child && child.localName !== 'form') {
+      child = child.parentElement;
+    }
+    return child;
+  }
+
+})();

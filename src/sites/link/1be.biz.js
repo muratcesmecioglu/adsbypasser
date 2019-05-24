@@ -1,16 +1,22 @@
-$.register({
+_.register({
   rule: {
-    host: /^(www\.)?1be\.biz$/,
-    path: /^\/s\.php$/,
+    host: /^(www\.)?(1be|1dl)\.biz$/,
+    path: /^\/z\.php$/,
     query: /^\?(.+)/,
   },
-  start: function (m) {
-    'use strict';
-
-    $.openLink(m.query[1]);
+  async start (m) {
+    await $.openLink(m.query[1]);
   },
 });
 
-// ex: ts=2 sts=2 sw=2 et
-// sublime: tab_size 2; translate_tabs_to_spaces true; detect_indentation false; use_tab_stops true;
-// kate: space-indent on; indent-width 2;
+_.register({
+  rule: {
+    host: /^1(be|dl)\.biz$/,
+    path: /^\/[jt]\.php$/,
+    query: /^\?s=/,
+  },
+  async ready () {
+    const a = $('.j-link');
+    await $.openLink(a.href);
+  },
+});

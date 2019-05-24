@@ -1,19 +1,36 @@
-$.register({
-  rule: {
-    host: /^ah\.pe$/,
-  },
-  ready: function () {
-    'use strict';
+(function () {
 
-    $.removeNodes('iframe');
+  _.register({
+    rule: {
+      host: /^ah\.pe$/,
+    },
+    async ready () {
+      let script = $.searchFromScripts('eval');
+      script = decodeScript(script);
+      script = decodeScript(script);
+      script = decodeScript(script);
 
-    var url = $.window.url;
-    $.get(url).then(function (url) {
-      $.openLink(url);
-    });
-  },
-});
+      let path = script.match(/([^;= ]+)=([^+ ;]+)\+"\."\+([^+ ]+)\+"\."\+([^; ]+);/);
+      if (!path) {
+        throw new _.AdsBypasserError('script changed');
+      }
+      if (typeof $.window[path[2]] === 'undefined') {
+        // recaptcha page
+        _.info('recaptcha');
+        return;
+      }
+      path = [$.window[path[2]], $.window[path[3]], $.window[path[4]]].join('.');
 
-// ex: ts=2 sts=2 sw=2 et
-// sublime: tab_size 2; translate_tabs_to_spaces true; detect_indentation false; use_tab_stops true;
-// kate: space-indent on; indent-width 2;
+      await $.openLink(path);
+    },
+  });
+
+  function decodeScript (encoded) {
+    let a = encoded.match(/^\s*;eval\((.+)\);\s*$/);
+    a = a[1];
+    const b = a.match(/^(.+)\('([^']+)','([^']+)','([^']+)','([^']+)'\)$/);
+    const c = _.evil(`(${b[1]})`);
+    return c(b[2], b[3], b[4], b[5]);
+  }
+
+})();
